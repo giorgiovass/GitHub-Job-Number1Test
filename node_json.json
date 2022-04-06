@@ -9,7 +9,7 @@
   "apc_test_8": "Today is such a great day!",
   "gitlab_key": "This is from Gitlab!",
   "icu_plural": "{nrOfChairs, plural, zero{There are no chairs.} one{There is one chair.} other{There are # chairs.}}",
-  "my_key": "This is a translation.",
+  "my_key": "This is a translation!",
   "my_key_2": "This is another translation.",
   "my_key_3": "This is yet another translation."
 }
