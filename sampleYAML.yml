@@ -4,8 +4,8 @@ es:
     created_at: Fecha Creación
     updated_at: Fecha Actualización
     type: Tipo
-    start_date: Fecha de Inicio
-    end_date: Fecha de Término
+    start_date: Fecha de Inicio, orale
+    end_date: Fecha de Término, orale
     active: Activo
     weight: Peso
     person: Persona
