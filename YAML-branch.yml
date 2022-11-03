@@ -1,0 +1,19 @@
+---
+es:
+  acp_test_7: Los idiomas europeos son miembros de una misma familia lingüistica. 
+    En los ambitos de la ciencia, arte, deporte, etc. Europe usa el mismo vocabulario.
+    Estos idiomas solo discrepan en su gramatica, su pronunciación y la mayoría de sus
+    palabras más comunes.
+  apc_test_1: 'Probando la creación automática de proyectos... estatus: {state}'
+  apc_test_2: Probando la creación automática de proyectos una vez más...
+  apc_test_3: Hola, Mundo!
+  apc_test_4: MiMarca
+  apc_test_5: ¡Hoy es un gran dia para el mundo de la traducción automática!
+  apc_test_6: Aqui hay mas texto. Necesito que se traduzca.
+  apc_test_8: ¡Hoy es un gran dia!
+  gitlab_key: Esto viene de GitHub
+  icu_plural: "{nrOfChairs, plural, zero{There are no chairs.} one{There is one chair.}
+    other{There are # chairs.}}"
+  my_key: Esto es una traducción.
+  my_key_2: Esto es otra traducción.
+  my_key_3: Esto es aún otra traducción.
