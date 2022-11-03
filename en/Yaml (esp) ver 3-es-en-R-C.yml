@@ -1,0 +1,15 @@
+---
+es:
+  acp_test_7: "European languages are members of the same linguistic family. In the fields of science, art, sports, etc. Europe uses the same vocabulary. These languages only differ in their grammar, their pronunciation and most of their most common words."
+  apc_test_1: 'Testing automatic project creation... status: {state}'
+  apc_test_2: Testing the automatic creation of projects once again...
+  apc_test_3: Hello World!
+  apc_test_4: My mark
+  apc_test_5: Today is a great day for the world of machine translation!
+  apc_test_6: Here is more text. I need it to be translated.
+  apc_test_8: Today is a great day!
+  gitlab_key: This comes from GitHub
+  icu_plural: "{nrOfChairs, plural, zero{There are no chairs.} one{There is one chair.} other{There are # chairs.}}"
+  my_key: This is a translation.
+  my_key_2: This is another translation.
+  my_key_3: This is yet another translation.
