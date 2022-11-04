@@ -1,0 +1,75 @@
+    approved: "%{model} aprobado"
+    bulk:
+      approved: "%{model} aprobadas(os)"
+      destroyed: "%{model} eliminadas(os)"
+  general:
+    select: "Seleccione %{name}"
+    pre_approved: Pre-aprobado
+    approved: Aprobado
+    rejected: Rechazado
+    approve: Aprobar
+    reject: Rechazar
+    actions: Acciones
+    expand: "Expandir"
+    preview: Previsualización
+    here: aquí
+    select_everything: Seleccionar Todo
+    average: Promedio
+    normal_distribution: Distribución Normal
+    histogram: Histograma
+    families: Familias
+    level: Nivel
+  role:
+    capacities:
+      description: Estas competencias serán utilizadas en las evaluaciones de desempeño para este cargo
+  links:
+    back: Volver
+    new:
+      male: 'Nuevo %{model}'
+      female: 'Nueva %{model}'
+    create: 'Crear %{model}'
+    update: 'Actualizar %{model}'
+    edit: 'Editar %{model}'
+    destroy: 'Eliminar %{model}'
+    add: Agregar
+    accept: Aceptar
+    confirm:
+      simple: "¿Seguro que desea eliminar?"
+      male: "¿Seguro que desea eliminar este %{model}?"
+      female: "¿Seguro que desea eliminar esta %{model}?"
+  welcome:
+    sex_M: Bienvenido
+    sex_F: Bienvenida
+  data_filter:
+    predicates:
+      eq: Es igual a
+      not_eq: No es igual a
+      in: Es igual a
+      not_in: No es igual a
+      start: Comienza con
+      end: Termina con
+      not_cont: No contiene
+      ucont: Contiene
+      gteq: Es mayor o igual a
+      lteq: Es menor o igual a
+      'null': Es vacío
+      not_null: No es vacío
+      blank: Es vacío
+      present: No es vacío
+      cont: Contiene
+      cont_all: Contiene todos
+      cont_any: Contiene algunos
+      not_cont_all: No contiene todos
+      not_cont_any: No contiene alguno
+  recaptcha:
+    errors:
+      verification_failed: 'La verificación falló, por favor intente nuevamente.'
+      recaptcha_unreachable: 'Verificación inalcanzable, por favor intente nuevamente.'
+  active_admin:
+    batch_actions:
+      labels:
+        assign_system_items: Asignar Items de Sistema
+        delete_public_sector_system_items: Eliminar Items de Sistema
+        reprocessing_vacations: Reprocesar Vacaciones
+        URL: https://google.com
+        
