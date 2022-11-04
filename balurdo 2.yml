@@ -1,3 +1,15 @@
+es:
+  attributes:
+    id: ID
+    created_at: Fechas de Creación
+    updated_at: Fechas de Actualización
+    type: Tipo
+    start_date: Fecha de Inicio
+    end_date: Fecha de Término
+    active: Activo
+    weight: Peso
+    person: Persona
+  activerecord:
     approved: "%{model} aprobado"
     bulk:
       approved: "%{model} aprobadas(os)"
