@@ -1,8 +1,7 @@
 en:
   attributes:
     id: ID
-    created_at: "New creation dates (TEST 3, 1 change to main, but complete workflow *not manual export to repository)"
-    updated_at: New Update Dates
+    created_at: New Creation Dates (TEST 5 - ALL THE WAY! THROUGH WORKFLOW!)
     type: Guy
     start_date: Start Date
     end_date: End Date
