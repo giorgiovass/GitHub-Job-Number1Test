@@ -1,7 +1,7 @@
 es:
   attributes:
     id: ID
-    created_at: Fechas de Creación nuevas (ESTA ES LA VERSION INICIAL DEL MAIN!!!!, Y AHORA CON UN CAMBIO AL MAIN!)
+    created_at: Fechas de Creación nuevas (TEST 2, 1 cambio al main)
     updated_at: Fechas de Actualización nuevas
     type: Tipo
     start_date: Fecha de Inicio
