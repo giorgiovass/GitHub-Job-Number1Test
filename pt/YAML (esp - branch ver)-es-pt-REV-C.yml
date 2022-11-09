@@ -1,7 +1,7 @@
 pt:
   attributes:
     id: ID
-    created_at: Novas datas de criação (ESTA É A VERSÃO INICIAL DO MAIN!!!!)
+    created_at: "Novas datas de criação (ESTA É A VERSÃO INICIAL DO MAIN!!!! , E AGORA COM UMA MUDANÇA PARA PRINCIPAL!)"
     updated_at: Novas datas de atualização
     type: Tipo
     start_date: Data de início
