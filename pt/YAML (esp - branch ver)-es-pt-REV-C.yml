@@ -1,8 +1,7 @@
 pt:
   attributes:
     id: ID
-    created_at: "Novas datas de criação (TEST 3, 1 mudam para principal, mas fluxo de trabalho completo *não exportação manual para repositório)"
-    updated_at: Novas datas de atualização
+    created_at: Novas Datas de Criação (TESTE 5 - TODO O CAMINHO! THROUGH WORKFLOW!)
     type: Tipo
     start_date: Data de início
     end_date: Data de término
