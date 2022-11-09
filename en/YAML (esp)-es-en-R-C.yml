@@ -1,8 +1,8 @@
 en:
   attributes:
     id: ID
-    created_at: Creation Date
-    updated_at: Update Date
+    created_at: Creation Dates
+    updated_at: Update Dates
     type: Kind
     start_date: Start Date
     end_date: End Date
