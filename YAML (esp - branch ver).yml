@@ -1,7 +1,7 @@
 es:
   attributes:
     id: ID
-    created_at: Fechas de Creación nuevas (test nuevo!)
+    created_at: Fechas de Creación nuevas (test nuevo, para la ultima prep)
     type: Tipo
     start_date: Fecha de Inicio
     end_date: Fecha de Término
