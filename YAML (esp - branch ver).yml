@@ -1,8 +1,7 @@
 es:
   attributes:
     id: ID
-    created_at: Fechas de Creación nuevas (TEST 3, 1 cambio al main, pero workflow completo *not manual export to repository)
-    updated_at: Fechas de Actualización nuevas
+    created_at: Fechas de Creación nuevas (TEST 5 - ALL THE WAY! THROUGH WORKFLOW!)
     type: Tipo
     start_date: Fecha de Inicio
     end_date: Fecha de Término
