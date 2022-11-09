@@ -1,8 +1,8 @@
 pt:
   attributes:
     id: ID
-    created_at: Data de criação
-    updated_at: Data de atualização
+    created_at: Datas de criação
+    updated_at: Atualizar datas
     type: Tipo
     start_date: Data de início
     end_date: Data de término
