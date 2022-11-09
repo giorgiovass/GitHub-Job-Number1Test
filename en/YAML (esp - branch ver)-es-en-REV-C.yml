@@ -1,7 +1,7 @@
 en:
   attributes:
     id: ID
-    created_at: New Creation Dates
+    created_at: New Creation Dates (test nuevo)
     type: Type
     start_date: Start Date
     end_date: Termination Date
