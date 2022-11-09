@@ -1,18 +1,18 @@
 pt:
   attributes:
     id: ID
-    created_at: Datas de criação
-    updated_at: Atualizar datas
+    created_at: Novas datas de criação
+    updated_at: Novas datas de actualização
     type: Tipo
     start_date: Data de início
-    end_date: Data de término
-    active: Ativo
+    end_date: Data da cessação
+    active: Activo
     weight: Peso
     person: Pessoa
   activerecord:
     models:
       talent/capacity:
-        one: Concorrência
+        one: Concurso
         other: Competências
       talent/indicator:
         one: Indicador
@@ -33,34 +33,34 @@ pt:
         expected: Esperado
       talent/indicator:
         description: Descrição
-        capacity: Concorrência
-        name: Nome do Indicador
+        capacity: Concurso
+        name: Nome Indicador
         level: Nível
       talent/scale:
         name: Nome
         measures: Medidas
     errors:
       messages:
-        record_invalid: "Falha na validação: %{errors}"
+        record_invalid: "A validação falhou: %{errors}"
         restrict_dependent_destroy:
-          has_one: "Não foi possível excluir o registro porque há um %{record} dependente"
-          has_many: "Não foi possível excluir o registro porque existem %{record} dependentes"
+          has_one: "O registo não pode ser apagado porque existe um %{record} dependente."
+          has_many: "Não é possível eliminar o registo, porque existem dependentes %{record}."
   date:
     abbr_day_names:
     - dom
-    - seg
+    - Seg
     - mar
-    - qua
+    - Wed
     - jue
-    - sex
+    - Sex
     - sáb
     abbr_month_names:
     -
-    - janeiro
-    - fevereiro
+    - ene
+    - Fev
     - mar
     - abr
-    - poderia
+    - pode
     - jun
     - jul
     - ago
@@ -85,23 +85,23 @@ pt:
       medium: "%d de %b de %Y"
       common: "%d de %b de %Y"
       basic: "%B %Y"
-      legal: "%d do %B do %Y"
+      legal: "%d de %B do %Y"
       day_and_number: "%A %d"
       day_and_month: "%d de %B"
     month_names:
     -
     - Janeiro
-    - fevereiro
-    - Marchar
+    - Fevereiro
+    - Março
     - abril
-    - Poderia
+    - Maio
     - Junho
     - Julho
     - agosto
     - Setembro
     - Outubro
-    - novembro
-    - dezembro
+    - Novembro
+    - Dezembro
     order:
     - ":day"
     - ":month"
@@ -110,29 +110,29 @@ pt:
     custom:
       distance_in_words:
         about_x_days:
-          zero: menos de um dia atrás
+          zero: há menos de um dia
           one: 1 dia atrás
-          other: "faz %{count} dias"
+          other: " %{count} dias atrás"
     distance_in_words:
       about_x_hours:
         one: cerca de 1 hora
-        other: "ao redor de %{count} horas"
+        other: "cerca de %{count} horas"
       about_x_months:
         one: cerca de 1 mês
-        other: "ao redor de %{count} meses"
+        other: "cerca de %{count} meses"
       about_x_years:
         one: cerca de 1 ano
-        other: "ao redor de %{count} anos"
+        other: "cerca de %{count} anos"
       almost_x_years:
         one: quase 1 ano
         other: "quase %{count} anos"
       half_a_minute: meio minuto
       less_than_x_minutes:
         one: menos de 1 minuto
-        other: "Menos de %{count} minutos"
+        other: "menos de %{count} minutos"
       less_than_x_seconds:
         one: menos de 1 segundo
-        other: "Menos de %{count} segundos"
+        other: "menos de %{count} segundos"
       over_x_years:
         one: mais de 1 ano
         other: "mais de %{count} anos"
@@ -140,8 +140,8 @@ pt:
         one: 1 dia
         other: "%{count} dias"
       x_hours:
-        one: 1 hora
-        other: "%{count} horas"
+        one: 1 hra
+        other: "%{count} hrs"
       x_minutes:
         one: 1 minuto
         other: "%{count} minutos"
@@ -164,64 +164,64 @@ pt:
   errors:
     format: "%{attribute} %{message}"
     messages:
-      accepted: deve ser aceito
-      blank: nao pode estar em branco
+      accepted: deve ser aceite
+      blank: não pode estar em branco
       present: deve estar em branco
-      confirmation: não coincide
+      confirmation: não corresponde
       empty: não pode estar vazio
       equal_to: "deve ser igual a %{count}"
-      even: deve ser mesmo
-      exclusion: está reservado
-      greater_than: "deve ser maior que %{count}"
+      even: deve ser par
+      exclusion: é reservado
+      greater_than: "deve ser maior do que %{count}"
       greater_than_or_equal_to: "deve ser maior ou igual a %{count}"
       inclusion: não está incluído na lista
       invalid: não é válido
-      invalid_comparison: "é inválido em comparação com %{count}"
-      less_than: "deve ser menor que %{count}"
-      less_than_or_equal_to: "deve ser menor ou igual a %{count}"
-      model_invalid: "Falha na validação: %{errors}"
-      record_invalid: "Falha na validação: %{errors}"
+      invalid_comparison: "não é válido quando comparado com %{count}"
+      less_than: "deve ser inferior a %{count}"
+      less_than_or_equal_to: "deve ser inferior ou igual a %{count}"
+      model_invalid: "A validação falhou: %{errors}"
+      record_invalid: "A validação falhou: %{errors}"
       not_a_number: não é um número
       not_an_integer: deve ser um número inteiro
       odd: deve ser estranho
       required: debe existir
-      taken: Já está em uso
+      taken: já em uso
       url: não é um URL válido
       too_long:
-        one: é muito longo (máximo de 1 caractere)
-        other: "é muito longo (%{count} máximo de caracteres)"
+        one: é demasiado longo (1 caracter máximo)
+        other: "é demasiado longo (%{count} caracteres máximo)"
       too_short:
-        one: é muito curto (mínimo de 1 caractere)
-        other: "Está muito curto (%{count} caracteres mínimos)"
+        one: é demasiado curto (mínimo de 1 carácter)
+        other: "é demasiado curto (%{count} caracteres mínimo)"
       wrong_length:
-        one: não tem o comprimento correto (exatamente 1 caractere)
-        other: "não tem o comprimento correto (%{count} caracteres exatos)"
+        one: não tem o comprimento correcto (exactamente 1 carácter)
+        other: "não é o comprimento correcto (%{count} caracteres exactos)"
       other_than: "deve ser diferente de %{count}"
-      extension_whitelist_error: O tipo de arquivo é inválido
-      out_of_range: "'%{value}' está fora do intervalo permitido"
-      code_format_start: deve começar com uma letra (sem acentos)
-      code_format: "deve conter apenas letras (sem acentos), números, sublinhados e nenhum espaço em branco"
-      date_range_uniqueness: "Já existe um %{model} para essas datas"
-      unknown_error: erro desconhecido
+      extension_whitelist_error: O tipo de ficheiro é inválido
+      out_of_range: "%{value}\" está fora do intervalo permitido"
+      code_format_start: deve começar com uma carta (sem acentos)
+      code_format: "deve conter apenas letras (sem acentos), números, sublinhados e sem espaços em branco"
+      date_range_uniqueness: "Já existe um %{model} para estas datas"
+      unknown_error: Erro desconhecido
     template:
-      body: 'Foram encontrados problemas nos seguintes campos:'
+      body: 'Foram encontrados problemas com os seguintes campos:'
       header:
-        one: "Não foi possível salvar isso %{model} porque 1 erro foi encontrado"
-        other: "Não foi possível salvar isso %{model} porque eles se conheceram %{count} erros"
+        one: "Este %{model} não pôde ser guardado porque foi encontrado 1 erro."
+        other: "Este %{model} não pôde ser guardado porque foram encontrados erros em %{count}."
   helpers:
     select:
-      prompt: por favor selecione
+      prompt: Por favor seleccione
     submit:
-      create: "Crear %{model}"
-      submit: "Salvar %{model}"
+      create: "Criar %{model}"
+      submit: "Guardar %{model}"
       send: Enviar
-      update: "Atualizar %{model}"
-      share: "Compartilhar %{model}"
+      update: "Actualização %{model}"
+      share: "Partilhar %{model}"
       delete: "Eliminar %{model}"
-      download: "Descarga %{model}"
-      export: "Exportar %{model}"
+      download: "Descarregar %{model}"
+      export: "Exportação %{model}"
       replace: "Substituir %{model}"
-      generate: "Acionar %{model}"
+      generate: "Gerar %{model}"
   number:
     currency:
       format:
@@ -242,15 +242,15 @@ pt:
       decimal_units:
         format: "%n %u"
         units:
-          billion: mil milhões
+          billion: biliões
           million:
-            one: milhão
+            one: milhões
             other: milhões
-          quadrillion: mil bilhões
+          quadrillion: mil biliões
           thousand: mil
           trillion:
-            one: bilhão
-            other: trilhões
+            one: biliões
+            other: milhares de milhões
           unit: ''
       format:
         delimiter: ''
@@ -276,8 +276,8 @@ pt:
         delimiter: ''
   support:
     array:
-      last_word_connector: " S "
-      two_words_connector: " S "
+      last_word_connector: " y "
+      two_words_connector: " y "
       words_connector: ", "
   time:
     am: am
@@ -287,12 +287,12 @@ pt:
       medium: "%d de %b de %Y %H:%M:%S"
       short: "%d de %b %H:%M"
       basic: "%B %Y"
-      simple: "%d do %B - %H:%M %p"
+      simple: "%d de %B - %H:%M %p"
       system_time: "%d/%m/%Y %H:%M:%S"
       system_time_without_seconds: "%d/%m/%Y %H:%M"
-      minute_precision_long: "%d/%m/%Y no %H:%M"
+      minute_precision_long: "%d/%m/%Y em %H:%M"
       standard: "%d-%m-%Y"
-      minute_precision_long_meridian: "%d/%m/%Y no %I:%M%p"
+      minute_precision_long_meridian: "%d/%m/%Y em %I:%M%p"
     pm: pm
   :true: 'Sim'
   :false: 'Não'
@@ -300,7 +300,7 @@ pt:
     period: Período
     monthly: Mês
     semi_monthly: Quinzena
-    semi_monthly_1: 1ª quinzena
+    semi_monthly_1: 1ª Quinzena
     semi_monthly_2: 2ª quinzena
     quantity:
       monthly:
@@ -310,79 +310,79 @@ pt:
         one: 1 quinzena
         other: "%{count} quinzenas"
   actions:
-    created: "%{model} criada"
-    updated: "%{model} Atualizada"
+    created: "%{model} criado"
+    updated: "%{model} actualizado"
     destroyed: "%{model} eliminado"
-    approved: "%{model} passado"
+    approved: "%{model} aprovado"
     bulk:
       approved: "%{model} aprovado"
       destroyed: "%{model} eliminadas(os)"
   general:
-    select: "Selecionar %{name}"
-    pre_approved: pré-aprovado
-    approved: Passado
-    rejected: Recusou
-    approve: Passar
-    reject: Declínio
-    actions: Ações
+    select: "Seleccione %{name}"
+    pre_approved: Pré-aprovado
+    approved: Aprovado
+    rejected: Rejeitado
+    approve: Aprovar
+    reject: Rejeitar
+    actions: Acções
     expand: "Expandir"
-    preview: Visualizar
+    preview: Pré-visualização
     here: aqui
-    select_everything: Selecionar tudo
+    select_everything: Seleccionar tudo
     average: Média
     normal_distribution: Distribuição normal
     histogram: Histograma
-    families: famílias
+    families: Famílias
     level: Nível
   role:
     capacities:
-      description: Essas competências serão utilizadas nas avaliações de desempenho para esta posição.
+      description: Estas competências serão utilizadas nas avaliações de desempenho para esta posição.
   links:
-    back: Retornar
+    back: Voltar a
     new:
       male: 'Novo %{model}'
       female: 'Novo %{model}'
-    create: 'Crear %{model}'
-    update: 'Atualizar %{model}'
+    create: 'Criar %{model}'
+    update: 'Actualização %{model}'
     edit: 'Editar %{model}'
     destroy: 'Eliminar %{model}'
     add: Agregar
     accept: Aceitar
     confirm:
-      simple: "Tem certeza de que deseja excluir?"
-      male: "Tem certeza de que deseja excluir isso %{model}?"
-      female: "Tem certeza de que deseja excluir isso %{model}?"
+      simple: "Tem a certeza de que quer apagar?"
+      male: "Tem a certeza de que quer apagar isto %{model}?"
+      female: "Tem a certeza de que quer apagar isto %{model}?"
   welcome:
     sex_M: Bem-vindo
     sex_F: Bem-vindo
   data_filter:
     predicates:
       eq: É igual a
-      not_eq: não é igual a
+      not_eq: Não é igual a
       in: É igual a
-      not_in: não é igual a
-      start: começar com
+      not_in: Não é igual a
+      start: Começa com
       end: Termina com
-      not_cont: Não têm
+      not_cont: Não contém
       ucont: Contém
-      gteq: é maior que ou igual a
-      lteq: é menor ou igual a
-      'null': está vazio
+      gteq: É maior ou igual a
+      lteq: É inferior ou igual a
+      'null': Está vazio
       not_null: Não está vazio
-      blank: está vazio
+      blank: Está vazio
       present: Não está vazio
       cont: Contém
-      cont_all: contém todos
-      cont_any: contém alguns
-      not_cont_all: não contém todos
-      not_cont_any: não contém nenhum
+      cont_all: Contém todos
+      cont_any: Contém alguns
+      not_cont_all: Não contém todos
+      not_cont_any: Não contém nenhum
   recaptcha:
     errors:
-      verification_failed: 'Falha na verificação. Por favor tente novamente.'
-      recaptcha_unreachable: 'Verificação inacessível. Tente novamente.'
+      verification_failed: 'A verificação falhou, por favor tente novamente.'
+      recaptcha_unreachable: 'Verificação inalcançável, por favor tente novamente.'
   active_admin:
     batch_actions:
       labels:
         assign_system_items: Atribuir itens do sistema
         delete_public_sector_system_items: Eliminar Items de Sistema
-        reprocessing_vacations: Reprocessar feriados
+        reprocessing_vacations: Reprocessar férias
