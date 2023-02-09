@@ -1,0 +1,387 @@
+en:
+  attributes:
+    id: ID
+    created_at: New creation dates
+    type: Guy
+    start_date: Start Date
+    end_date: End Date
+    active: Active
+    weight: Weight
+    person: Person
+  activerecord:
+    models:
+      talent/capacity:
+        one: Competence
+        other: Competences
+      talent/indicator:
+        one: Indicator
+        other: Indicators
+      talent/employee_goal:
+        one: Objective
+        other: Outcome
+    attributes:
+      role:
+        name: Name
+      talent/capacity:
+        name: Name
+        description: Description
+        scope: Scope
+        global: Transverse
+        no_global: Specific
+      talent/capacitation:
+        expected: Expected
+      talent/indicator:
+        description: Description
+        capacity: Competence
+        name: Indicator Name
+        level: Level
+      talent/scale:
+        name: Name
+        measures: Measurement
+    errors:
+      messages:
+        record_invalid: "Validation failed: %{errors}"
+        restrict_dependent_destroy:
+          has_one: "Unable to delete the record because a %{record} dependent exists"
+          has_many: "Unable to delete the record because there are %{record} dependents"
+  date:
+    abbr_day_names:
+    - dom
+    - lun
+    - Sea
+    - Wed
+    - Thu
+    - Vie
+    - Sat
+    abbr_month_names:
+    -
+    - en
+    - Feb
+    - Sea
+    - Apr
+    - may
+    - jun
+    - jul
+    - Aug
+    - sep
+    - Oct
+    - Nov
+    - Dec
+    day_names:
+    - Sunday
+    - Monday
+    - Tuesday
+    - Wednesday
+    - Thursday
+    - Friday
+    - Saturday
+    formats:
+      default: "%d-%m-%Y"
+      month_dash_year: "%m-%Y"
+      month_dash_short_year: "%B '%y"
+      long: "%A %d of of %B  %Y"
+      short: "%d of %b"
+      medium: "%d of of %b  %Y"
+      common: "%d of of %b  %Y"
+      basic: "%B %Y"
+      legal: "%d of of %B  %Y"
+      day_and_number: "%A %d"
+      day_and_month: "%d of %B"
+    month_names:
+    -
+    - January
+    - February
+    - March
+    - April
+    - May
+    - June
+    - July
+    - August
+    - September
+    - October
+    - November
+    - December
+    order:
+    - ":day"
+    - ":month"
+    - ":year"
+  datetime:
+    custom:
+      distance_in_words:
+        about_x_days:
+          zero: less than a day ago
+          one: 1 day ago
+          other: "days ago %{count} "
+    distance_in_words:
+      about_x_hours:
+        one: about 1 hour
+        other: " %{count} about hours"
+      about_x_months:
+        one: about 1 month
+        other: "about %{count} months"
+      about_x_years:
+        one: about 1 year
+        other: " %{count} about years"
+      almost_x_years:
+        one: almost 1 year
+        other: "almost %{count} years"
+      half_a_minute: half a minute
+      less_than_x_minutes:
+        one: less than 1 minute
+        other: "less than %{count} minutes"
+      less_than_x_seconds:
+        one: less than 1 second
+        other: "less than %{count} seconds"
+      over_x_years:
+        one: more than 1 year
+        other: "more than %{count} years"
+      x_days:
+        one: 1 day
+        other: "%{count} days"
+      x_hours:
+        one: 1 hr
+        other: "%{count} Hrs"
+      x_minutes:
+        one: 1 minute
+        other: "%{count} minutes"
+      x_months:
+        one: 1 month
+        other: "%{count} months"
+      x_seconds:
+        one: 1 second
+        other: "%{count} Seconds"
+      x_years:
+        one: 1 year
+        other: "%{count} years"
+    prompts:
+      day: Day
+      hour: Hour
+      minute: Minutes
+      month: Month
+      second: Seconds
+      year: Year
+  errors:
+    format: "%{attribute} %{message}"
+    messages:
+      accepted: must be accepted
+      blank: cannot be blank
+      present: must be blank
+      confirmation: does not match
+      empty: cannot be empty
+      equal_to: "must be equal to %{count}"
+      even: must be even
+      exclusion: is reserved
+      greater_than: "must be greater than %{count}"
+      greater_than_or_equal_to: "must be greater than or equal to %{count}"
+      inclusion: Not included in the list
+      invalid: Invalid
+      invalid_comparison: "Not valid compared to %{count}"
+      less_than: "must be less than %{count}"
+      less_than_or_equal_to: "must be less than or equal to %{count}"
+      model_invalid: "Validation failed: %{errors}"
+      record_invalid: "Validation failed: %{errors}"
+      not_a_number: is not a number
+      not_an_integer: must be an integer
+      odd: must be odd
+      required: must exist
+      taken: already in use
+      url: is not a valid URL
+      too_long:
+        one: is too long (1 character maximum)
+        other: "is too long (maximum%{count} characters)"
+      too_short:
+        one: is too short (at least 1 character)
+        other: "is too short (minimum%{count} characters)"
+      wrong_length:
+        one: not the correct length (1 exact character)
+        other: "does not have the correct length (%{count} exact characters)"
+      other_than: "must be different from %{count}"
+      extension_whitelist_error: File type is invalid
+      out_of_range: "'%{value}' is out of the allowed range"
+      code_format_start: Must start with a letter (no accents)
+      code_format: "Must contain only letters (no accents), numbers, underscore, and no white space"
+      date_range_uniqueness: "There is already a %{model} for these dates"
+      unknown_error: Unknown error
+    template:
+      body: 'Problems were encountered with the following fields:'
+      header:
+        one: "This could %{model} not be saved because 1 error was encountered"
+        other: "This could %{model} not be saved because errors were encountered %{count} "
+  helpers:
+    select:
+      prompt: Please select
+    submit:
+      create: "Crear %{model}"
+      submit: "Save %{model}"
+      send: Send
+      update: "Update %{model}"
+      share: "Share %{model}"
+      delete: "Eliminate %{model}"
+      download: "Download %{model}"
+      export: "Export %{model}"
+      replace: "Replace %{model}"
+      generate: "Generate %{model}"
+  number:
+    currency:
+      format:
+        delimiter: "."
+        format: "%u %n"
+        precision: 0
+        separator: ","
+        significant: false
+        strip_insignificant_zeros: false
+        unit: "$"
+    format:
+      delimiter: "."
+      precision: 3
+      separator: ","
+      significant: false
+      strip_insignificant_zeros: false
+    human:
+      decimal_units:
+        format: "%n %u"
+        units:
+          billion: billion
+          million:
+            one: million
+            other: Million
+          quadrillion: billion
+          thousand: thousand
+          trillion:
+            one: trillion
+            other: Billion
+          unit: ''
+      format:
+        delimiter: ''
+        precision: 1
+        significant: true
+        strip_insignificant_zeros: true
+      storage_units:
+        format: "%n %u"
+        units:
+          byte:
+            one: Byte
+            other: Bytes
+          gb: GB
+          kb: KB
+          mb: MB
+          tb: TB
+    percentage:
+      format:
+        delimiter: ''
+        format: "%n%"
+    precision:
+      format:
+        delimiter: ''
+  support:
+    array:
+      last_word_connector: " and "
+      two_words_connector: " and "
+      words_connector: ", "
+  time:
+    am: am
+    formats:
+      default: "%A, %d of of %B :%M %Y %H:%S %z"
+      long: "%A %d of %B of %Y %H:%M"
+      medium: "%d of of %b :%M %Y %H:%S"
+      short: "%d of %b %H:%M"
+      basic: "%B %Y"
+      simple: "%d of %B - %H:%M %p"
+      system_time: "%d/%m/%Y %H:%M:%S"
+      system_time_without_seconds: "%d/%m/%Y %H:%M"
+      minute_precision_long: "%d/%m/%Y at %H:%M"
+      standard: "%d-%m-%Y"
+      minute_precision_long_meridian: "%d/%m/%Y at %I:%M%p"
+    pm: PM
+  :true: 'Yes'
+  :false: 'No'
+  periods:
+    period: Period
+    monthly: Month
+    semi_monthly: Fortnight
+    semi_monthly_1: 1st Fortnight
+    semi_monthly_2: 2nd Fortnight
+    quantity:
+      monthly:
+        one: 1 month
+        other: "%{count} months"
+      semi_monthly:
+        one: 1 fortnight
+        other: "%{count} Fortnights"
+  actions:
+    created: "%{model} Created"
+    updated: "%{model} Updated(a)"
+    destroyed: "%{model} Deleted"
+    approved: "%{model} approved"
+    bulk:
+      approved: "%{model} Approved"
+      destroyed: "%{model} Deleted"
+  general:
+    select: "Select %{name}"
+    pre_approved: Approved
+    approved: Approved
+    rejected: Rejected
+    approve: Approve
+    reject: Reject
+    actions: Actions
+    expand: "Expand"
+    preview: Preview
+    here: here
+    select_everything: Select All
+    average: Average
+    normal_distribution: Normal distribution
+    histogram: Histogram
+    families: Families
+    level: Level
+  role:
+    capacities:
+      description: These competencies will be used in performance evaluations for this position.
+  links:
+    back: Return
+    new:
+      male: 'New %{model}'
+      female: 'New %{model}'
+    create: 'Crear %{model}'
+    update: 'Update %{model}'
+    edit: 'Edit %{model}'
+    destroy: 'Eliminate %{model}'
+    add: Add
+    accept: Accept
+    confirm:
+      simple: "Are you sure you want to delete?"
+      male: "Are you sure you want to delete this one %{model}?"
+      female: "Are you sure you want to delete this one %{model}?"
+  welcome:
+    sex_M: Welcome
+    sex_F: Welcome
+  data_filter:
+    predicates:
+      eq: It is equal to
+      not_eq: It is not equal to
+      in: It is equal to
+      not_in: It is not equal to
+      start: Start with
+      end: Ends with
+      not_cont: Does not contain
+      ucont: Contains
+      gteq: Is greater than or equal to
+      lteq: Is less than or equal to
+      'null': "It's empty"
+      not_null: Not empty
+      blank: "It's empty"
+      present: Not empty
+      cont: Contains
+      cont_all: Contains all
+      cont_any: Contains some
+      not_cont_all: Does not contain all
+      not_cont_any: Does not contain any
+  recaptcha:
+    errors:
+      verification_failed: 'Verification failed, please try again.'
+      recaptcha_unreachable: 'Unattainable verification, please try again.'
+  active_admin:
+    batch_actions:
+      labels:
+        assign_system_items: Assign System Items
+        delete_public_sector_system_items: Remove System Items
+        reprocessing_vacations: Reprocess Vacation
