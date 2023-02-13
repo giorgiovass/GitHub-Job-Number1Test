@@ -1,0 +1,387 @@
+es:
+  attributes:
+    id: ID
+    created_at: Novas datas de criação
+    type: Tipo
+    start_date: Data de início
+    end_date: Data de término
+    active: Ativo
+    weight: Peso
+    person: Persona
+  activerecord:
+    models:
+      talent/capacity:
+        one: Competição
+        other: Competências
+      talent/indicator:
+        one: Indicador
+        other: Indicadores
+      talent/employee_goal:
+        one: Objetivo
+        other: Objetivos
+    attributes:
+      role:
+        name: Nome
+      talent/capacity:
+        name: Nome
+        description: Descrição
+        scope: Alcance
+        global: Transversal
+        no_global: Específica
+      talent/capacitation:
+        expected: Esperado
+      talent/indicator:
+        description: Descrição
+        capacity: Competição
+        name: Nome do indicador
+        level: Nível
+      talent/scale:
+        name: Nome
+        measures: Medidas
+    errors:
+      messages:
+        record_invalid: "Falha na validação:% {errors}"
+        restrict_dependent_destroy:
+          has_one: "O registro não pode ser excluído porque há um dependente% {record}"
+          has_many: "O registro não pode ser excluído porque há% {record} dependentes"
+  date:
+    abbr_day_names:
+    - dom
+    - Mon
+    - mar
+    - qua
+    - Qui
+    - Vie
+    - Sáb
+    abbr_month_names:
+    -
+    - pt
+    - Fevereiro
+    - mar
+    - abr
+    - Maio
+    - Junho
+    - jul
+    - ago
+    - sep
+    - Outubro.
+    - nov
+    - dic
+    day_names:
+    - domingo
+    - Segunda-feira
+    - terça
+    - Quarta-feira
+    - Quinta-feira
+    - Sexta-feira
+    - sábado
+    formats:
+      default: "%d-%m-%Y"
+      month_dash_year: "%m-%Y"
+      month_dash_short_year: "%B '%y"
+      long: "%A %d de %B de %Y"
+      short: "%d de %b"
+      medium: "%d de %b de %Y"
+      common: "%d de %b de %Y"
+      basic: "%B %Y"
+      legal: "%d de %B de %Y"
+      day_and_number: "%A %d"
+      day_and_month: "%d de %B"
+    month_names:
+    -
+    - janeiro
+    - fevereiro
+    - Março
+    - abril
+    - Maio
+    - Junho
+    - Julho
+    - agosto
+    - setembro
+    - Outubro
+    - novembro
+    - dezembro
+    order:
+    - ":day"
+    - ":month"
+    - ":year"
+  datetime:
+    custom:
+      distance_in_words:
+        about_x_days:
+          zero: Há menos de um dia
+          one: 1 dia atrás
+          other: "% {count} dias atrás"
+    distance_in_words:
+      about_x_hours:
+        one: cerca de 1 hora
+        other: "cerca de% {count} horas"
+      about_x_months:
+        one: cerca de 1 mês
+        other: "cerca de% {count} meses"
+      about_x_years:
+        one: cerca de 1 ano
+        other: "cerca de% {count} anos"
+      almost_x_years:
+        one: quase 1 ano
+        other: "quase% {count} anos"
+      half_a_minute: Meio minuto
+      less_than_x_minutes:
+        one: menos de 1 minuto
+        other: "menos de% {count} minutos"
+      less_than_x_seconds:
+        one: Menos de 1 segundo
+        other: "menos de% {count} segundos"
+      over_x_years:
+        one: mais de 1 ano
+        other: "mais de% {count} anos"
+      x_days:
+        one: 1 dia
+        other: "% {count} dias"
+      x_hours:
+        one: 1 hra
+        other: "% {count} horas"
+      x_minutes:
+        one: 1 minuto
+        other: "%{count} minutos"
+      x_months:
+        one: 1 mês
+        other: "%{count} meses"
+      x_seconds:
+        one: 1 segundo
+        other: "% {count} segundos"
+      x_years:
+        one: 1 ano
+        other: "% {count} anos"
+    prompts:
+      day: Dia
+      hour: Hora
+      minute: Minutos
+      month: Mês
+      second: Segundos
+      year: Ano
+  errors:
+    format: "%{attribute} %{message}"
+    messages:
+      accepted: deve ser aceito
+      blank: Não pode ficar em branco
+      present: Deve estar em branco
+      confirmation: Não combina
+      empty: Não pode estar vazio
+      equal_to: "deve ser igual a% {count}"
+      even: Deve ser uniforme
+      exclusion: Está reservado
+      greater_than: "deve ser maior que% {count}"
+      greater_than_or_equal_to: "deve ser maior ou igual a% {count}"
+      inclusion: Não está incluído na lista
+      invalid: não válido
+      invalid_comparison: "não é válido em comparação com% {count}"
+      less_than: "deve ser menor que% {count}"
+      less_than_or_equal_to: "deve ser menor ou igual a% {count}"
+      model_invalid: "Falha na validação:% {errors}"
+      record_invalid: "Falha na validação:% {errors}"
+      not_a_number: Não é um número
+      not_an_integer: Deve ser um número inteiro
+      odd: Deve ser estranho
+      required: Deve existir
+      taken: Já está em uso
+      url: não é um URL válido
+      too_long:
+        one: é muito longo (máximo de 1 caractere)
+        other: "é muito longo (máximo de% {count} caracteres)"
+      too_short:
+        one: é muito curto (mínimo de 1 caractere)
+        other: "é muito curto (mínimo de% {count} caracteres)"
+      wrong_length:
+        one: Não tem o tamanho certo (1 caractere exato)
+        other: "não é o tamanho correto (% {count} caracteres exatos)"
+      other_than: "deve ser diferente de% {count}"
+      extension_whitelist_error: O tipo de arquivo é inválido
+      out_of_range: "'% {value} 'está fora do intervalo permitido"
+      code_format_start: deve começar com uma letra (sem acentos)
+      code_format: "deve conter apenas letras (sem acentos), números, sublinhado e sem espaços em branco"
+      date_range_uniqueness: "A% {model} já existe para essas datas"
+      unknown_error: Erro desconhecido
+    template:
+      body: 'Foram encontrados problemas com os seguintes campos:'
+      header:
+        one: "Este% {model} não pôde ser salvo porque um erro foi encontrado"
+        other: "Esse% {model} não pôde ser salvo porque os erro% {count} foram encontrados"
+  helpers:
+    select:
+      prompt: "Por favor, selecione"
+    submit:
+      create: "Crear %{model}"
+      submit: "Guardar %{model}"
+      send: Enviar
+      update: "Atualização% {model}"
+      share: "Compartilhe% {model}"
+      delete: "Eliminar %{model}"
+      download: "Baixe% {model}"
+      export: "Exportar %{model}"
+      replace: "Substitua% {model}"
+      generate: "Gerar% {model}"
+  number:
+    currency:
+      format:
+        delimiter: "."
+        format: "%u %n"
+        precision: 0
+        separator: ","
+        significant: false
+        strip_insignificant_zeros: false
+        unit: "$"
+    format:
+      delimiter: "."
+      precision: 3
+      separator: ","
+      significant: false
+      strip_insignificant_zeros: false
+    human:
+      decimal_units:
+        format: "%n %u"
+        units:
+          billion: Bilhão
+          million:
+            one: milhão
+            other: Milhões
+          quadrillion: Mil trilhões
+          thousand: mil
+          trillion:
+            one: bilhão
+            other: Trilhões
+          unit: ''
+      format:
+        delimiter: ''
+        precision: 1
+        significant: true
+        strip_insignificant_zeros: true
+      storage_units:
+        format: "%n %u"
+        units:
+          byte:
+            one: Byte
+            other: Bytes
+          gb: GB
+          kb: KB
+          mb: MB
+          tb: TB
+    percentage:
+      format:
+        delimiter: ''
+        format: "%n%"
+    precision:
+      format:
+        delimiter: ''
+  support:
+    array:
+      last_word_connector: " e "
+      two_words_connector: " e "
+      words_connector: ", "
+  time:
+    am: am
+    formats:
+      default: "%A, %d de %B de %Y %H: %M: %S %z"
+      long: "%A %d de %B de %Y %H: %M"
+      medium: "%d de %b de %Y %H: %M: %S"
+      short: "%d de %b %H: %M"
+      basic: "%B %Y"
+      simple: "%d de %B - %H:%M %p"
+      system_time: "%d/%m/%Y %H: %M: %S"
+      system_time_without_seconds: "%d/%m/%Y %H: %M"
+      minute_precision_long: "%d/%M/%Y em %H: %M"
+      standard: "%d-%m-%Y"
+      minute_precision_long_meridian: "%d/%m/%Y em %I: %m%p"
+    pm: pm
+  :true: 'sim'
+  :false: 'Não'
+  periods:
+    period: Período
+    monthly: Mês
+    semi_monthly: Quinzena
+    semi_monthly_1: 1ª quinzena
+    semi_monthly_2: 2ª quinzena
+    quantity:
+      monthly:
+        one: 1 mês
+        other: "%{count} meses"
+      semi_monthly:
+        one: Uma quinzena
+        other: "% {count} quinzenas"
+  actions:
+    created: "% {model} criado"
+    updated: "% {model} atualizado"
+    destroyed: "% {model} excluído"
+    approved: "% {model} aprovado"
+    bulk:
+      approved: "% {model} aprovado"
+      destroyed: "% {model} excluído"
+  general:
+    select: "Selecione% {name}"
+    pre_approved: Pré-aprovado
+    approved: Aprovado
+    rejected: Rejeitado
+    approve: Aprovar
+    reject: Declínio
+    actions: Ações
+    expand: "Expandir"
+    preview: prévia
+    here: aqui
+    select_everything: Selecionar tudo
+    average: Média
+    normal_distribution: Distribuição normal
+    histogram: Histograma
+    families: Famílias
+    level: Nível
+  role:
+    capacities:
+      description: Essas competências serão usadas nas avaliações de desempenho dessa posição.
+  links:
+    back: Volver
+    new:
+      male: 'Novo% {model}'
+      female: 'Novo% {model}'
+    create: 'Crear %{model}'
+    update: 'Atualização% {model}'
+    edit: 'Editar %{model}'
+    destroy: 'Eliminar %{model}'
+    add: Agregar
+    accept: Aceitar
+    confirm:
+      simple: "Tem certeza de que deseja excluir?"
+      male: "Tem certeza de que deseja excluir esse% {model}?"
+      female: "Tem certeza de que deseja excluir esse% {model}?"
+  welcome:
+    sex_M: Bem-vindo
+    sex_F: Bem-vindo
+  data_filter:
+    predicates:
+      eq: É igual a
+      not_eq: Não é igual a
+      in: É igual a
+      not_in: Não é igual a
+      start: Começa com
+      end: Termina com
+      not_cont: Não contém
+      ucont: Contém
+      gteq: É maior ou igual a
+      lteq: É menor ou igual a
+      'null': Está vazio
+      not_null: Não está vazio
+      blank: Está vazio
+      present: Não está vazio
+      cont: Contém
+      cont_all: Ele contém tudo
+      cont_any: Ele contém alguns
+      not_cont_all: Não contém tudo
+      not_cont_any: Não contém nenhum
+  recaptcha:
+    errors:
+      verification_failed: 'A verificação falhou. Tente novamente.'
+      recaptcha_unreachable: 'A verificação está inacessível, tente novamente.'
+  active_admin:
+    batch_actions:
+      labels:
+        assign_system_items: Atribuir itens do sistema
+        delete_public_sector_system_items: Eliminar Items de Sistema
+        reprocessing_vacations: Reprocessar férias
