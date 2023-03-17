@@ -1,0 +1,24 @@
+{
+    "zip5": {
+        "heading": "What is your 5 digit zip code?",
+        "placeholder": "Zipcode"
+    },
+    "state_county": {
+        "heading": "What State/City do you reside in if you are NOT a Utah resident?"
+    },
+    "is_utah_resident": {
+        "heading": "Do you reside in Utah?",
+        "options": {
+            "No": "No",
+            "Yes": "Yes"
+        }
+    },
+    "enrollment_reason": {
+        "heading": "Why are you enrolling?",
+        "options": {
+            "new-hire": "I am a new hire",
+            "open-enrollment": "I am enrolling in Open Enrollment for next plan year",
+            "qualified-event": "I recently had a qualified life event (marriage, divorce, birth, adoption)"
+        }
+    }
+}
