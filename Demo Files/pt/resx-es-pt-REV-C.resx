@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:element name="data">
+      <xsd:complexType>
+        <xsd:sequence>
+          <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+        </xsd:sequence>
+        <xsd:attribute name="name" type="xsd:string"/>
+        <xsd:attribute name="type" type="xsd:string"/>
+        <xsd:attribute name="mimetype" type="xsd:string"/>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="acp_test_7">
+    <value>As línguas europeias são membros da mesma família. Their separate existence is a myth. Para a ciência, a música, o desporto, etc., a Europa utiliza o mesmo vocabulário. As línguas diferem apenas em sua gramática, sua pronúncia e suas palavras mais comuns.</value>
+  </data>
+  <data name="apc_test_1">
+    <value>Testando a criação automatizada de projetos... Estado: {state}</value>
+  </data>
+  <data name="apc_test_2">
+    <value>Testando a criação automatizada de projetos novamente...</value>
+  </data>
+  <data name="apc_test_3">
+    <value>Olá, mundo!</value>
+  </data>
+  <data name="apc_test_4">
+    <value>MyBrand</value>
+  </data>
+  <data name="apc_test_5">
+    <value>Hoje é um ótimo dia para a Tradução Automática!</value>
+  </data>
+  <data name="apc_test_6">
+    <value>Este é mais um texto. Please translate it.</value>
+  </data>
+  <data name="apc_test_8">
+    <value>Hoje é um grande dia!</value>
+  </data>
+  <data name="gitlab_key">
+    <value>This is from Gitlab!</value>
+  </data>
+  <data name="icu_plural">
+    <value>{nrOfChairs, plural, zero{There are no chairs.} um{There is one chair.} outro{There are # chairs.}}</value>
+  </data>
+  <data name="my_key">
+    <value>Esta é uma tradução.</value>
+  </data>
+  <data name="my_key_2">
+    <value>This is another translation.</value>
+  </data>
+  <data name="my_key_3">
+    <value>Esta é mais uma tradução.</value>
+  </data>
+</root>
