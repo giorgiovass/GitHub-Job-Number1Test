@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="acp_test_7">The European languages are members of the same family. Their separate existence is a myth. For science, music, sport, etc, Europe uses the same vocabulary. The languages only differ in their grammar, their pronunciation and their most common words.</string>
+    <string name="apc_test_1">Testing automated project creation... status: {state}</string>
+    <string name="apc_test_2">Testing automated project creation again...</string>
+    <string name="apc_test_3">Hello World!</string>
+    <string name="apc_test_4">MyBrand</string>
+    <string name="apc_test_5">Today is a great day for Machine Translation!</string>
+    <string name="apc_test_6">This is some more text. Please translate it.</string>
+    <string name="apc_test_8">Today is such a great day!</string>
+    <string name="apc_test_9">My name is {name}, it's nice to meet you!</string>
+    <string name="gitlab_key">This is from Gitlab!</string>
+    <string name="icu_plural">{nrOfChairs, plural, zero{There are no chairs.} one{There is one chair.} other{There are # chairs.}}</string>
+    <string name="my_key">This is a translation.</string>
+    <string name="my_key_2">This is another translation.</string>
+    <string name="my_key_3">This is yet another translation.</string>
+</resources>
