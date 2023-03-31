@@ -1,0 +1,60 @@
+CASE STUDY
+Global Bank elimina interrupções baseadas em certificados do Kubernetes com o TLS Protect for Kubernetes Business Challenge:
+Sem visibilidade em
+identidades de máquina usadas no Kubernetes
+Este banco multinacional, um cliente de longa data da Venafi, estava migrando muitos de seus aplicativos originalmente implantados usando infraestrutura local para uma infraestrutura multicloud usando Kubernetes.
+Durante esse processo, um aplicativo voltado para o cliente sofreu uma interrupção relacionada ao certificado.
+Isso era incomum para eles porque não sofreram nenhuma interrupção de certificado desde que começaram a usar o Venafi para gerenciar as identidades de máquina de seus aplicativos locais.
+Durante a correção, o cliente descobriu que a interrupção foi causada por uma configuração incorreta do certificado de uma carga de trabalho implantada em um cluster Kubernetes.
+Descobriu-se que a equipe de desenvolvimento responsável pela carga de trabalho usava uma versão mais antiga do cert-manager, a ferramenta de código aberto em que milhares de empresas confiam para automatizar a emissão e o gerenciamento de certificados TLS no Kubernetes.
+Curiosamente, esse cliente percebeu que sua equipe de segurança não tinha visibilidade de nenhum uso ou configuração de certificado em seus clusters Kubernetes, o que permitia que a configuração incorreta passasse despercebida.
+Isso apontou para um desafio organizacional:
+The  security and application platform teams were not in  close synchronization.
+A equipe da plataforma assumiu que as ferramentas utilizadas pela equipe de segurança não eram adequadas para seu uso, visto que os certificados são tratados de maneira diferente em ambientes nativos da nuvem.
+Por exemplo, o alto volume de cargas de trabalho do Kubernetes sendo implantado em ciclos de lançamento mais rápidos consumiu um número significativamente maior de certificados TLS do que os usados em data centers tradicionais, exigindo uma abordagem diferente de gerenciamento de identidade de máquina.
+Após a interrupção e a correção, a equipe de segurança se reuniu com Venafi e pediu orientação sobre como eles poderiam ajudar suas equipes de plataforma a gerenciar identidades de máquinas em ambientes nativos da nuvem para evitar futuras interrupções.
+“Precisávamos de visibilidade e controle completos de todas as configurações de certificados nativos da nuvem em nosso novo ambiente multicloud porque todos os aplicativos estão migrando para essa nova plataforma”, disse o vice-presidente de segurança.
+“E se pudéssemos obter os mesmos resultados que vimos com o Venafi nas instalações da nuvem, seria uma grande vitória.”
+Apenas um ano antes, Venafi havia adquirido a empresa Jetstack.
+Jetstack created cert-manager, the world’s  leading open source certificate management solution.
+Anteriormente desconhecido da equipe de segurança, o cert-manager, com mais de meio bilhão de downloads em 2021, era muito conhecido da equipe da plataforma, oferecendo credibilidade instantânea de que uma solução viável deveria ser obtida.
+Solução:
+TLS Protect for Kubernetes
+Os especialistas nativos da nuvem da Venafi reuniram-se com as duas equipes do cliente para demonstrar como o investimento atual do cliente na solução de gerenciamento de identidade da máquina da Venafi poderia ser facilmente estendido para incluir também a infraestrutura da nuvem.
+Originalmente chamado de Venafi Jetstack Secure, o TLS Protect for Kubernetes forneceria à equipe de segurança observabilidade, consistência e controle de identidades de máquinas em toda a empresa, seja a infraestrutura local ou em ambientes Kubernetes modernos.
+Construído sobre o cert-manager, o TLS Protect for Kubernetes foi projetado especificamente para uso corporativo.
+Além de fornecer suporte comercial completo com SLAs, o TLS Protect for Kubernetes também inclui tais
+A Venafi é líder do mercado de segurança cibernética em gerenciamento de identidade de máquina, protegendo as chaves criptográficas e os certificados digitais dos quais todas as empresas e governos dependem para fornecer comunicação segura entre máquinas.
+As organizações usam chave Venafi e segurança de certificado para proteger comunicações, comércio, sistemas e dados críticos e acesso móvel e de usuário.
+To learn more, visit venafi.com
+2© 2023 Venafi, Inc.
+Todos os direitos reservados.
+recursos prontos para empresas, como compilações assinadas compatíveis com FIPS de gerenciador de certificados em toda a organização em qualquer número de clusters Kubernetes, consistência de configuração de uso de gerenciador de certificados e emissão de certificados e um único painel para monitorar a integridade de todos os clusters Kubernetes .
+Em outras palavras, o TLS Protect for Kubernetes conectaria as equipes de plataforma que dependem do cert-manager com as equipes de segurança que dependem das soluções Venafi para criar ambientes Kubernetes confiáveis e seguros.
+“O TLS Protect for Kubernetes teria sido uma pechincha apenas pelo conhecimento de plantão e suporte de nível empresarial que poderíamos acessar da equipe que criou o certmanager”, disse o vice-presidente de plataforma.
+Acrescentou o vice-presidente da InfoSec:
+“Venafi e a equipe TLS Protect for Kubernetes também fornecem esquemas de práticas recomendadas para manter a segurança e a conformidade da nuvem à medida que escalamos, bem como a capacidade de estender perfeitamente nossa visibilidade em infraestruturas de nuvem clássicas no local e modernas.
+Essa é a coisa mais próxima de uma bala de prata que já vi em meus 25 anos como profissional de segurança.”
+Ending certificate-related outages within
+Clusters do Kubernetes
+A primeira tarefa do TLS Protect for Kubernetes foi ajudar o banco a identificar certificados no cluster que poderiam desencadear uma interrupção – e o banco ficou surpreso ao encontrar várias centenas deles.
+Com o Jetstack Secure, a equipe da plataforma revogou facilmente os certificados ofensivos e os substituiu por outros que cumpriam as políticas de segurança corporativa definidas na plataforma Venafi.
+O Jetstack Secure aplicou isso automaticamente.
+Além disso, o TLS Protect for Kubernetes automatizou a descoberta de todas as identidades de máquina usadas em cada cluster do Kubernetes, incluindo aquelas que antes eram invisíveis para as equipes de segurança ou plataforma, e as relatou imediatamente à equipe de segurança.
+Isso deu à empresa uma atualização contínua
+inventário de todos os seus certificados em sua infraestrutura nativa de nuvem.
+E para reduzir ainda mais o risco de interrupções e outras vulnerabilidades de segurança, ele também ajudou a equipe da plataforma a automatizar a configuração do cert-manager em todos os clusters.
+Isso melhorou a experiência das equipes de desenvolvedores, permitindo que eles fossem ainda mais rápidos.
+Orquestrando a identidade da máquina
+management within Kubernetes
+A equipe de segurança ficou satisfeita com o fato de o TLS Protect for Kubernetes automatizar tarefas como registro e monitoramento centralizados, porque isso deu a eles a confiança de que seus ambientes de nuvem eram gerenciados no mesmo nível que os locais.
+Além disso, o TLS Protect for Kubernetes usa processos consistentes, bem documentados e comprovados para controlar o uso de chaves e certificados em ambientes Kubernetes.
+Said the vice president of security:
+“Adoro como o TLS Protect for Kubernetes automatiza os processos de configuração e gerenciamento, eliminando o erro humano.
+E inclui um pacote de suporte de primeira classe, que ajuda a garantir o cumprimento do SLA de tempo de atividade da plataforma.
+A equipe do TLS Protect for Kubernetes está sempre à distância de um telefonema ou mensagem de texto.”
+Tornando o certificado como serviço verdadeiramente
+sem atrito para desenvolvedores
+As equipes de desenvolvimento ficaram entusiasmadas por não precisarem mais se preocupar com os vários aspectos do gerenciamento de certificados que costumavam atrapalhar a velocidade do desenvolvimento - incluindo solicitação de tokens, gerenciamento de chaves privadas e manutenção do cert-manager em centenas de clusters.
+Além disso, agora eles podem adquirir e gerenciar certificados válidos aprovados pela Venafi sem ter que se preocupar se os certificados aderiram à política.
+Disse o vice-presidente de plataforma: “Fico feliz em saber que os riscos de interrupções diminuíram bastante devido a problemas de configuração incorreta do cert-manager ou do certificado, sem mencionar que agora estamos em conformidade com a política de segurança corporativa”.
