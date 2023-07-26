@@ -1,0 +1,24 @@
+{
+    "zip5": {
+        "heading": "¿Cuál es su código postal de 5 dígitos?",
+        "placeholder": "Código postal"
+    },
+    "state_county": {
+        "heading": "¿En qué Estado/Ciudad reside si NO es residente de Utah?"
+    },
+    "is_utah_resident": {
+        "heading": "¿Reside en Utah?",
+        "options": {
+            "No": "No",
+            "Yes": "Sí"
+        }
+    },
+    "enrollment_reason": {
+        "heading": "¿Por qué se inscribe?",
+        "options": {
+            "new-hire": "Soy un nuevo empleado",
+            "open-enrollment": "Me inscribo en la inscripción abierta para el próximo año del plan",
+            "qualified-event": "He tenido recientemente un acontecimiento vital cualificado (matrimonio, divorcio, nacimiento, adopción)"
+        }
+    }
+}
