@@ -1,3 +1,4 @@
+---
 permalink: /index.html
 page_order: 1
 hide_toc: true
