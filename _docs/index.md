@@ -6,7 +6,7 @@ hide_nav: true
 hidden: true
 layout: doc_guide
 custom_collection: home
-nav_title: "Documentations"
+nav_title: "Documentationing"
 description: "This is the Braze documentation site landing page. Here, you can find links to the user guide, developer guide, API guide, technology partners documentation, and help articles. You can also find quick links to helpful links and popular articles."
 
 doc_top_header: "Braze Documentation"
