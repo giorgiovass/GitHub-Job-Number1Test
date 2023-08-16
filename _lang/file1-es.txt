@@ -1,0 +1,3 @@
+¡Hola!
+Por favor, traduzca este archivo que se llama "archivo1.txt".
+Gracias.
