@@ -1,3 +1,3 @@
 Hello!
-Please also translate this file that is named "file2.txt".
+Please also translate this second file that is named "file2.txt".
 Thanks, and best regards!
