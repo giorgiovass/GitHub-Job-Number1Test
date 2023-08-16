@@ -1,0 +1,3 @@
+¡Hola!
+Traduzca este archivo que se llama "file1.txt».
+¡Gracias!
