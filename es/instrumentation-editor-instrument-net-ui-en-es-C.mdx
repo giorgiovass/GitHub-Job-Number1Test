@@ -1,0 +1,93 @@
+---
+title: 'Editor de instrumentación: Instrumento .NET desde UI' redirects: - /docs/agents/net-agent/custom-instrumentation/live-instrumentation-editor-instrument-ui - /docs/live-instrumentation-editor-instrument-ui - /docs/instrumentation-editor-instrument-ui
+---
+
+import apmDotnetInstrumentationEditor from 'images/apm_screenshot-full_dotnet-instrumentation-editor.webp'
+
+<Callout title="PREVIEW FEATURE"> Esta función se encuentra actualmente en versión preliminar.
+
+  Si tiene preguntas o comentarios, o si necesita ayuda durante la vista previa del editor **de instrumentación** del agente .NET, envíe un correo electrónico a [dotnet-li-editor-beta@newrelic.com](mailto:dotnet-li-editor-beta@newrelic.com). </Callout>
+
+Nuestro editor **de instrumentación** permite a los usuarios de aplicaciones .NET implementar instrumentación personalizada desde la interfaz de usuario de New Relic sin necesidad de reiniciar la aplicación instrumentada. Este editor:
+
+* Permite a los usuarios autorizados editar instrumentación personalizada desde la interfaz de usuario de New Relic en lugar de los archivos XML locales.
+* Se valida con el esquema de instrumentación personalizado.
+* Proporciona una opción para los clientes que no tienen acceso ni al código de la aplicación ni a los hosts en los que se ejecutan sus aplicaciones.
+
+## Requisitos
+
+Para utilizar el editor **de instrumentación** , debe cumplir los siguientes requisitos:
+
+<table>
+  <thead>
+    <tr>
+      <th width={200}>
+        **Requisitos**
+      </th>
+
+      <th>
+        **Comentarios**
+      </th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <td>
+        Agente
+      </td>
+
+      <td>
+        Agente .NET versión 7.0.2 o superior
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        [Rol de cuenta](/docs/accounts-partnerships/accounts/roles-permissions/users-roles#roles)
+      </td>
+
+      <td>
+        Propietario o administrador
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        Seguridad
+      </td>
+
+      <td>
+        Usuarios de [modo de alta seguridad](/docs/agents/manage-apm-agents/configuration/high-security-mode) no pueden usar el editor de **Instrumentación** para actualizar la instrumentación de su aplicación.
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+## Definir instrumentación personalizada [#defining]
+
+<img title="APM Settings: .NET instrumentation" alt="APM Settings: .NET instrumentation" src={apmDotnetInstrumentationEditor} />
+
+<figcaption>
+  **[one.newrelic.com > Todas las capacidades](https://one.newrelic.com/all-capabilities) > APM y servicios > (seleccione una aplicación .NET) > Configuración > Instrumentación:** El editor de **Instrumentación** proporciona una manera fácil de ver o editar su instrumentación personalizada en la interfaz de usuario. Este ejemplo XML muestra el nombre del ensamblado, el nombre de la clase y el nombre del método.
+</figcaption>
+
+<Callout variant="important"> La implementación de instrumentación en vivo provoca un breve período de mayor sobrecarga. Esto puede ralentizar notablemente las solicitudes de aplicaciones durante varios segundos. </Callout>
+
+Para utilizar el editor **de instrumentación** :
+
+1. Vaya a **[one.newrelic.com > Todas las capacidades](https://one.newrelic.com/all-capabilities) > APM**. Busque su aplicación y luego haga clic en **Configuración > Instrumentación**.
+2. Utilice el editor **de instrumentación** para proporcionar XML utilizando la misma sintaxis que se describe para [editar archivos de instrumentación .xml locales](/docs/agents/net-agent/custom-instrumentation/create-transactions-xml-net) y [agregar detalles de instrumentación.](/docs/agents/net-agent/custom-instrumentation/add-detail-transactions-xml-net) Utilice cualquiera de estas opciones desde la interfaz de usuario:
+
+   * Escriba el código XML directamente.
+   * Copie el código y péguelo desde un portapapeles.
+   * Haga clic **en Descargar XML de muestra** para crear un archivo de instrumentación de muestra como punto de partida.
+   * Cargue un archivo .xml seleccionando **Elegir archivo**. Para ver un ejemplo, consulte [Ejemplo MyInstrumentation.xml](/docs/agents/net-agent/custom-instrumentation/add-detail-transactions-xml-net#sample).
+3. El editor **de instrumentación** valida su código XML a medida que escribe. Para realizar la validación XML fuera del editor, seleccione **Descargar XSD**y utilice el archivo XSD con su herramienta de validación XML favorita para diagnosticar problemas.
+4. Para implementar los cambios, seleccione **Enviar**.
+
+## Ver resultados de instrumentación [#view]
+
+El agente .NET iniciará la nueva instrumentación dentro de unos pocos [ciclos de recolección](/docs/using-new-relic/welcome-new-relic/getting-started/glossary#harvest-cycle) (normalmente unos minutos). La sección **Instrumentación actual** de la interfaz de usuario **de Instrumentación** mostrará el estado de los cambios aplicados.
+
+El XML del editor **de instrumentación** se combina con el XML que existe en los archivos de instrumentación locales en la máquina que ejecuta el agente. El agente busca periódicamente cambios en el XML final (combinado) y los detecta dinámicamente, sin necesidad de reiniciar el agente o la aplicación.
