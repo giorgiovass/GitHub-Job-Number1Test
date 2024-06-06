@@ -2,7 +2,7 @@
 page_order: 0
 nav_title: Home
 Guía del usuario de article_title: Braze
-layout: user\_guide
+layout: user_guide
 
 user_top_header: "Braze User Guide"
 user_top_text: "Aquí es donde los vendedores y administradores pueden aprender todo lo que necesitan saber para comenzar con Braze y cómo diseñar interacciones significativas con los clientes basadas en datos".
