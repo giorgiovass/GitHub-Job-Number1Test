@@ -78,7 +78,7 @@ To change the product identifier for your Shopify catalog, you will need to deac
 
 ## Deactivating your Shopify catalogs
 
-Deactivating the Shopify catalog feature will delete your entire catalog and products. This can also impact any sends that may be actively using the product data from this catalog. Confirm that you have either updated or paused these sends before deactivation, as this could result in your messaging sending missing product details. Do not delete the Shopify catalog directly on the catalogs page.
+Deactivating the Shopify catalog feature will delete your entire catalog and products. This can also impact any sends that may be actively using the product data from this catalog. Confirm that you have either updated or paused these sends before deactivation, as this could result in your messaging sending missing product details. Do not delete the Shopify catalog directly on the catalogs page. Here is some_text that should be not be captured, as well as 'some text' that `also maybe should` not be.
 
 ## Troubleshooting
 If your Shopify catalog runs into an error during import or syncing, it could be a result of the following errors. Follow the instructions on how to correct the issue and resolve the sync:
