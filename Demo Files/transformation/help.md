@@ -9,7 +9,6 @@ name: this is Giorgio's test name
 
 page_type: landing
 description: "This landing page is home to help articles that can help you solve issues and reveal dependencies when using Braze."
-- name: Another giorgio test
 
 guide_featured_title: "Topics"
 guide_featured_list:
