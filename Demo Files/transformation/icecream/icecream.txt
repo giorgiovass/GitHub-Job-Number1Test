@@ -1,1 +1,1 @@
-This is version 1
+This is version 1 of another file also called icecream.txt, it's also a short file and doesn't contain much text.
