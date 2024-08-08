@@ -2,3 +2,6 @@ This is version 1 of my icecream.txt file.
 
 
 It is a short file for translation.
+
+
+Hello, here's a new sentence too, let's translate this as well, thanks.
