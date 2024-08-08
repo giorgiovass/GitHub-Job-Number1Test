@@ -2,8 +2,3 @@ This is version 1 of my icecream.txt file.
 
 
 It is a short file for translation.
-
-
-Hello, this is an update, which means this is now version 2 of this file. Please translate this too!
-
-Thank you!
