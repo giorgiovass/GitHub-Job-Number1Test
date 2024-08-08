@@ -1,1 +1,4 @@
 This is version 1 of another file also called icecream.txt, it's also a short file and doesn't contain much text.
+
+
+Hello, this version has now been updated, please also translate this second string of text, thank you!
