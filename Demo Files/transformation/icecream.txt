@@ -9,3 +9,6 @@ Hello, here's a new sentence too, let's translate this as well, thanks.
 
 
 A brand new sentence added on: Friday, August 9th.
+
+
+And a new one from Aug 12. This is now version 3.
