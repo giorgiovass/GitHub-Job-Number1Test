@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<xliff version="1.2">
+	<file original="Salesforce" source-language="en_US" translation-type="metadata" datatype="xml" target-language="de">
+		<body>
+			<trans-unit xmlns="" id="PicklistValue.User.Job_Role.Occupational/Environmental Health &amp; Safety" maxwidth="255" size-unit="char">
+				<source>Occupational/Environmental Health &amp; Safety</source>
+				<target>Arbeits-/Umweltgesundheit und -sicherheit</target>
+			</trans-unit>
+			<trans-unit xmlns="" id="PicklistValue.User.Job_Role.Office of Research" maxwidth="255" size-unit="char">
+				<source>Office of Research</source>
+				<target>Forschungsbüro</target>
+			</trans-unit>
+			<trans-unit xmlns="" id="PicklistValue.User.Job_Role.Operations" maxwidth="255" size-unit="char">
+				<source>Operations</source>
+				<target>Operationen</target>
+			</trans-unit>
+			<trans-unit xmlns="" id="PicklistValue.User.Job_Role.Other Library Staff" maxwidth="85" size-unit="char">
+				<source>This here is some text that I would like to translate, thank you very much please!</source>
+				<target>Dies hier ist ein Text, den ich gerne übersetzen würde, vielen Dank bitte!</target>
+			</trans-unit>
+			<trans-unit xmlns="" id="PicklistValue.User.Job_Role.Pharmacist" maxwidth="50" size-unit="char">
+				<source>This here is some other text that I would like to translate, thank you very much please!</source>
+				<target>Ein weiterer Text zum Übersetzen, danke!</target>
+			</trans-unit>
+			<trans-unit xmlns="" id="PicklistValue.User.Job_Role.Physician" maxwidth="260" size-unit="char">
+				<source>The European languages are members of the same family, really. Their separate existence is a myth; for science, music, sport, etc, Europe uses the same vocabulary. The languages only differ in their grammar, their pronunciation and their most common words.</source>
+				<target>Europäische Sprachen sind eine Familie. Ihre Trennung ist ein Mythos. In Wissenschaft, Musik, Sport usw. nutzt Europa dasselbe Vokabular. Unterschiede bestehen nur in Grammatik, Aussprache und gebräuchlichsten Wörtern.</target>
+			</trans-unit>
+			<trans-unit xmlns="" id="PicklistValue.User.Job_Role.President/CEO/Chairman" maxwidth="140" size-unit="char">
+				<source>The European languages are members of the same family. Their separate existence is a myth; for science, music, sport, etc, Europe uses the same vocabulary. The languages only differ in their grammar, their pronunciation and their most common words.</source>
+				<target>Europäische Sprachen sind eine Familie. Ihre Trennung ist ein Mythos. Europa nutzt dasselbe Vokabular, nur Grammatik, Aussprache und Wörter variieren.</target>
+			</trans-unit>
+			<trans-unit xmlns="" id="PicklistValue.User.Job_Role.Purchasing Agent/Procurement" maxwidth="255" size-unit="char">
+				<source>Purchasing Agent/Procurement</source>
+				<target>Einkäufer/Beschaffung</target>
+			</trans-unit>
+			<trans-unit xmlns="" id="PicklistValue.User.Job_Role.Reference/Public Services" maxwidth="255" size-unit="char">
+				<source>Reference/Public Services</source>
+				<target>Referenzen/Öffentliche Dienste</target>
+			</trans-unit>
+			<trans-unit xmlns="" id="PicklistValue.User.Job_Role.Research &amp; Development" maxwidth="255" size-unit="char">
+				<source>Research &amp; Development</source>
+				<target>Forschung &amp; Entwicklung</target>
+			</trans-unit>
+			<trans-unit xmlns="" id="PicklistValue.User.Job_Role.Researcher" maxwidth="255" size-unit="char">
+				<source>Researcher</source>
+				<target>Forscher</target>
+			</trans-unit>
+			<trans-unit xmlns="" id="PicklistValue.User.Job_Role.Residency Program Director" maxwidth="255" size-unit="char">
+				<source>Residency Program Director</source>
+				<target>Direktor des Residency-Programms</target>
+			</trans-unit>
+			<trans-unit xmlns="" id="PicklistValue.User.Job_Role.Resident/Medical Student" maxwidth="255" size-unit="char">
+				<source>Resident/Medical Student</source>
+				<target>Assistenzarzt/Medizinstudent</target>
+			</trans-unit>
+			<trans-unit xmlns="" id="PicklistValue.User.Job_Role.Risk Management" maxwidth="255" size-unit="char">
+				<source>Risk Management</source>
+				<target>Risikomanagement</target>
+			</trans-unit>
+			<trans-unit xmlns="" id="PicklistValue.User.Job_Role.Sales" maxwidth="255" size-unit="char">
+				<source>Sales</source>
+				<target>Verkäufe</target>
+			</trans-unit>
+			<trans-unit xmlns="" id="PicklistValue.User.Job_Role.School Administrator" maxwidth="255" size-unit="char">
+				<source>School Administrator</source>
+				<target>Schulverwaltung</target>
+			</trans-unit>
+			<trans-unit xmlns="" id="PicklistValue.User.Job_Role.Student" maxwidth="255" size-unit="char">
+				<source>Student</source>
+				<target>Student</target>
+			</trans-unit>
+			<trans-unit xmlns="" id="PicklistValue.User.Job_Role.Supervisor" maxwidth="255" size-unit="char">
+				<source>Supervisor</source>
+				<target>Supervisor</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>
