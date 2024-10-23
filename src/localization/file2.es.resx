@@ -28,12 +28,12 @@
     <value>Las lenguas europeas pertenecen a la misma familia. Su existencia separada es un mito. Para la ciencia, la música, el deporte, etc., Europa utiliza el mismo vocabulario. Las lenguas solo difieren en su gramática, su pronunciación y sus palabras más comunes.</value>
   </data>
   <data name="another.key">
-    <value>Este es un texto para traducir</value>
+    <value>Este es un texto para traducción</value>
   </data>
   <data name="my_key_2_ver2">
-    <value>¡Esta es otra traducción por favor!</value>
+    <value>¡Esta es otra traducción, por favor!.</value>
   </data>
   <data name="my_key_3_ver1">
-    <value>Esta es otra traducción para Phrase.</value>
+    <value>Esta es otra traducción de Phrase.</value>
   </data>
 </root>
