@@ -25,13 +25,13 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="acp_test_7">
-    <value>Las lenguas europeas pertenecen a la misma familia. Su existencia separada es un mito. Para la ciencia, la música, el deporte, etc., Europa usa el mismo vocabulario. Las lenguas solo difieren en su gramática, su pronunciación y sus palabras más comunes.</value>
+    <value>Las lenguas europeas pertenecen a la misma familia. Su existencia separada es un mito. Para la ciencia, la música, el deporte, etc., Europa utiliza el mismo vocabulario. Las lenguas solo difieren en su gramática, su pronunciación y sus palabras más comunes.</value>
   </data>
   <data name="apc_test_1">
     <value>Probando la creación automatizada de proyectos... estado: {state}</value>
   </data>
   <data name="apc_test_2">
-    <value>Probando la creación automatizada de proyectos... estado: </value>
+    <value>Probando la creación automatizada de proyectos de nuevo...</value>
   </data>
   <data name="apc_test_3">
     <value>Hola, mundo</value>
@@ -43,7 +43,7 @@
     <value>¡Hoy es un gran día para la traducción automática!</value>
   </data>
   <data name="apc_test_6">
-    <value>Este es un texto más. Por favor, tradúcelo.</value>
+    <value>Este es un poco más de texto. Traduzca esto, por favor.</value>
   </data>
   <data name="apc_test_8">
     <value>¡Hoy es un gran día!</value>
@@ -52,7 +52,7 @@
     <value>¡Esto es de Gitlab!</value>
   </data>
   <data name="my_key">
-    <value>Se trata de una traducción.</value>
+    <value>Esta es una traducción.</value>
   </data>
   <data name="my_key_2">
     <value>Esta es otra traducción.</value>
