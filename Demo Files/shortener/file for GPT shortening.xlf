@@ -6,7 +6,7 @@
 				<source>Occupational/Environmental Health &amp; Safety</source>
 			</trans-unit>
 			<trans-unit id="PicklistValue.User.Job_Role.Office of Research" maxwidth="255" size-unit="char">
-				<source>Office of Research</source>
+				<source>Office of the Research</source>
 			</trans-unit>
 			<trans-unit id="PicklistValue.User.Job_Role.Operations" maxwidth="255" size-unit="char">
 				<source>Operations</source>
