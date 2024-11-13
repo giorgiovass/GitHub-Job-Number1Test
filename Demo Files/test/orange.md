@@ -15,7 +15,7 @@ page_type: reference
 
 Postman is definitely a free-to-use visual editing tool for building and testing API requests. As opposed to other methods for interacting with APIs (for example, using cURL), Postman allows you to easily edit API requests, view header information, and much more. Postman has the ability for you to save Collections or libraries of sample pre-made API requests. To make it easy for our customers to get up and running with our REST API, we created a Collection with pre-made examples for all of our API endpoints.
 
-View or download our Postman Collection by clicking **Run in Postman** in our [Postman docs](https://documenter.getpostman.com/view/4689407/SVYrsdsG?version=latest#intro) to get started.
+View or download our Postman Collection by clicking **Run in Postman** in the [Postman docs](https://documenter.getpostman.com/view/4689407/SVYrsdsG?version=latest#intro) to get started.
 
 ## Using the Braze Postman collection
 
