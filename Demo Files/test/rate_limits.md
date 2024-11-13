@@ -2,7 +2,7 @@
 <!---DEFAULT RATE LIMIT-->
 
 {% if include.endpoint == "default" %}
-We apply the default Braze rate limit of 250,000 requests per hour to this endpoint, as documented in [API rate limits]({{site.baseurl}}/api/api_limits/).
+We apply the regular Braze rate limit of 250,000 requests per hour to this endpoint, as documented in [API rate limits]({{site.baseurl}}/api/api_limits/).
 
 <!---PUT /scim/v2/Users/YOUR_ID_HERE--->
 {% elsif include.endpoint == "update dashboard user" %}
