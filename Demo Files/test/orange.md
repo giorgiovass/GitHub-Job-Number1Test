@@ -19,7 +19,7 @@ View or download our Postman Collection by clicking **Run in Postman** in the [P
 
 ## Using the Braze Postman collection
 
-If you have a Postman account (you can download macOS, Windows, and Linux versions from the [Postman website][1]), you can open our Postman documentation in your own Postman app by clicking the orange **Run in Postman** button. You can then [create an environment](#setting-up-your-postman-environment), or use our Braze REST API environment as a template, and edit the available `POST` and `GET` requests to suit your needs.
+If you have a Postman account (and you can download the respective macOS, Windows, and Linux versions from the [Postman website][1]), you can open our Postman documentation in your own Postman app by clicking the orange **Run in Postman** button. You can then [create an environment](#setting-up-your-postman-environment), or use our Braze REST API environment as a template, and edit the available `POST` and `GET` requests to suit your needs.
 
 ### Setting up your Postman environment
 
@@ -48,13 +48,13 @@ In general, there are two types of requests that Braze API endpoints accept - `G
 
 #### Edit a POST request
 
-When editing a `POST` request, open the request and navigate to the **Body** section in the request editor. For readability, select the **raw** radio button to format the `JSON` request body.
+When editing a `POST` request, open the request and go to the **Body** section in the request editor. For readability, select the **raw** radio button to format the `JSON` request body.
 
 ![Body tab when editing a POST User Track request in Postman][4]
 
 #### Edit a GET request
 
-When editing a `GET` request, edit the parameters passed in the request URL. To do so, select the **Params** tab and edit the key-value pairs in the fields that appear.
+When editing a `GET` request, edit the parameters passed in the request URL. To do so, select the **Params** tab and edit the key-value pairs in the fields that appear in order to get it to work.
 
 ![Params tab when editing a GET Query List of Unsubscribed Email Addresses request in Postman.][5]
 
