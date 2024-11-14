@@ -18,7 +18,7 @@ This endpoint has a rate limit of 5000 requests a day, per company. This rate li
 
 <!---POST /scim/v2/Users--->
 {% elsif include.endpoint == "create dashboard user" %}
-This endpoint has a rate limit of 5000 requests per day, per company. This rate limit is shared with the `/scim/v2/Users/` PUT, GET, and DELETE endpoints as documented in [API rate limits]({{site.baseurl}}/api/api_limits/).
+This endpoint has a rate limit of 5000 requests per day, per organization. This rate limit is shared with the `/scim/v2/Users/` PUT, GET, and DELETE endpoints as documented in [API rate limits]({{site.baseurl}}/api/api_limits/).
 
 <!---GET /scim/v2/Users--->
 {% elsif include.endpoint == "look up dashboard user email" %}
@@ -47,7 +47,7 @@ If you onboarded with Braze on or after August 22, 2024, this endpoint has a rat
 <!---/users/delete-->
 
 {% elsif include.endpoint == "users delete" %}
-For customers who onboarded with Braze on or after September 16, 2021, we apply a shared rate limit of 20,000 requests per minute to this endpoint. This rate limit is shared with the `/users/alias/new`, `/users/identify`, and `/users/merge` endpoints, as documented in [API rate limits]({{site.baseurl}}/api/api_limits/).
+For customers who onboarded onto the Braze platform on or after September 16, 2021, we apply a shared rate limit of 20,000 requests per minute for this endpoint. This rate limit is shared with the `/users/alias/new`, `/users/identify`, and `/users/merge` endpoints, as documented in [API rate limits]({{site.baseurl}}/api/api_limits/).
 
 <!---/users/alias/new-->
 
