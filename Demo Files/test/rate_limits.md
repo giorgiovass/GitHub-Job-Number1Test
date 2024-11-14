@@ -123,7 +123,7 @@ This endpoint has a rate limit of 50 requests per minute.
 
 <!---POST /cdi/integrations/{integration_id}/sync--->
 {% elsif include.endpoint == "cdi job sync" %}
-This endpoint has a rate limit of 20 requests per minute.
+This endpoint has a limit of 20 requests per minute.
 
 <!---POST /cdi/integrations/{integration_id}/job_sync_status--->
 {% elsif include.endpoint == "cdi job sync status" %}
