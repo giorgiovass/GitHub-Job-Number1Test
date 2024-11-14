@@ -2,7 +2,7 @@
 nav_title: Postman and Other Requests
 article_title: Postman and Other Requests
 page_order: 3
-description: "This reference article covers the Braze Postman Collection, what it is, how to set up and use the collection, as well as how to edit and send all requests."
+description: "This reference article covers the Braze Postman Collection, what it does, how to set up and use the collection, as well as how to edit and send all requests."
 page_type: reference
 
 ---
