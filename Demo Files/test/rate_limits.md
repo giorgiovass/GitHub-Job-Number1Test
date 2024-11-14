@@ -6,7 +6,7 @@ We apply the regular Braze rate limit of 250,000 requests per hour to this endpo
 
 <!---PUT /scim/v2/Users/YOUR_ID_HERE--->
 {% elsif include.endpoint == "update dashboard user" %}
-This endpoint has a rate limit of 5000 requests per day. This rate limit is shared with the `/scim/v2/Users/` GET, DELETE, and POST endpoints as documented in [API rate limits]({{site.baseurl}}/api/api_limits/).
+This endpoint has a rate limit of 5000 requests per day. This rate limit is shared with the `/scim/v2/Users/` GET, DELETE, and POST endpoints as they are documented in [API rate limits]({{site.baseurl}}/api/api_limits/).
 
 <!---GET /scim/v2/Users/YOUR_ID_HERE--->
 {% elsif include.endpoint == "look up dashboard user" %}
