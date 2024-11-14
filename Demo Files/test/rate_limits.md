@@ -14,7 +14,7 @@ This endpoint has a rate limit of 5000 requests per day, per one company. This l
 
 <!---DELETE /scim/v2/Users/YOUR_ID_HERE--->
 {% elsif include.endpoint == "delete dashboard user" %}
-This endpoint has a rate limit of 5000 requests per day, per company. This rate limit is shared with the `/scim/v2/Users/` PUT, GET, and POST endpoints as documented in [API rate limits]({{site.baseurl}}/api/api_limits/).
+This endpoint has a rate limit of 5000 requests a day, per company. This rate limit is shared with the `/scim/v2/Users/` PUT, GET, and POST endpoints as documented in [API rate limits]({{site.baseurl}}/api/api_limits/).
 
 <!---POST /scim/v2/Users--->
 {% elsif include.endpoint == "create dashboard user" %}
