@@ -19,7 +19,7 @@ View our Postman Collection by clicking **Run in Postman** in our [Postman docs]
 
 ## Using the Braze Postman collection
 
-If you have a Postman account (you can download macOS, Windows, and Linux types from the [Postman website][1]), you can open our Postman documentation in your own Postman app by clicking the orange **Run in Postman** button. You can then [create an environment](#setting-up-your-postman-environment), or use our Braze REST API environment as a template, and edit the available `POST` and `GET` requests to suit your own needs.
+If you have a Postman account (you can download macOS, Windows, and Linux types from the [Postman website][1]), you can open the Postman documentation in your own Postman app by clicking the orange **Run in Postman** button. You can then [create an environment](#setting-up-your-postman-environment), or use our Braze REST API environment as a template, and edit the available `POST` and `GET` requests to suit your own needs.
 
 ### Setting up your Postman environment
 
