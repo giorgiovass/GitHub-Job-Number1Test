@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:element name="data">
+      <xsd:complexType>
+        <xsd:sequence>
+          <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+        </xsd:sequence>
+        <xsd:attribute name="name" type="xsd:string"/>
+        <xsd:attribute name="type" type="xsd:string"/>
+        <xsd:attribute name="mimetype" type="xsd:string"/>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="acp_test_7">
+    <value>Las lenguas europeas pertenecen a la misma familia. Su existencia separada es un mito. Para la ciencia, la música, el deporte, etc., Europa utiliza el mismo vocabulario. Las lenguas solo difieren en su gramática, su pronunciación y sus palabras más comunes.</value>
+  </data>
+  <data name="apc_test_1">
+    <value>Probando la creación automatizada de proyectos... estado: {state}</value>
+  </data>
+  <data name="apc_test_2">
+    <value>Probando la creación automatizada de proyectos de nuevo...</value>
+  </data>
+  <data name="apc_test_3">
+    <value>Hola, mundo</value>
+  </data>
+  <data name="apc_test_4">
+    <value>MyBrand</value>
+  </data>
+  <data name="apc_test_5">
+    <value>¡Hoy es un gran día para la traducción automática!</value>
+  </data>
+  <data name="apc_test_6">
+    <value>Este es un poco más de texto. Traduzca esto, por favor.</value>
+  </data>
+  <data name="apc_test_8">
+    <value>¡Hoy es un gran día!</value>
+  </data>
+  <data name="gitlab_key">
+    <value>¡Esto es de Gitlab!</value>
+  </data>
+  <data name="my_key">
+    <value>Esta es una traducción.</value>
+  </data>
+  <data name="my_key_2">
+    <value>Esta es otra traducción.</value>
+  </data>
+  <data name="my_key_3">
+    <value>Esta es otra traducción.</value>
+  </data>
+</root>
