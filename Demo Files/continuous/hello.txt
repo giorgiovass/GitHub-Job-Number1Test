@@ -1,6 +1,6 @@
 Greetings!
 
-This is a file that will be translated. Let's see how it behaves!
+This is a file that will be translated. Let's see how it behaves after I make a brand new change!
 
 Thanks, and best regards!
 
