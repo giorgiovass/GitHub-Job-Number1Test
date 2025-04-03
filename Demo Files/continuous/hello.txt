@@ -1,9 +1,9 @@
 Hello,
 
-This is a file that will be translated. Let's see how it behaves after I make a brand new change in this line. This will now be version 3.
+This is a file that will be translated. Let's see how it behaves after I make a brand new change in this line. This will now be version 4.
 
 Thanks, and best regards!
 
-This is an entirely brand new line of text, it should be picked up by the APC.
+The below is an introduction to the "Bloomin' Onion" from Outback Steakhouse. Please read on:
 
-One last line of text goes here.
+When Ryan Nanni put on the singularly iconic — and utterly ridiculous — Bloomin’ Onion costume for the 2018 Outback Bowl, all he could think about was how uncomfortable he was and how utterly absurd the journey had been up until this point. It began a year earlier, on January 2, 2017, when Nanni — a sportswriter and the editor-in-chief of the Banner Society — was watching the annual college football showdown on TV. “The Bloomin’ Onion mascot came on, and I turned to my wife and said, ‘I’m gonna do that. I’m going to be that for one game,’” Nanni recalls.
