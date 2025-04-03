@@ -1,6 +1,6 @@
 Hello,
 
-This is a file that will be translated. Let's see how it behaves after I make a brand new change in this line. This is now version 2.
+This is a file that will be translated. Let's see how it behaves after I make a brand new change in this line. This will now be version 3.
 
 Thanks, and best regards!
 
