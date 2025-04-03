@@ -1,7 +1,5 @@
-Hello there!
+Hello there!!!
 
-This is a file that will be translated. Let's see how it behaves after I make a brand new change!
+This is a file that will be translated. Let's see how it behaves after I make a brand new change in this line. This is now version 2.
 
 Thanks, and best regards!
-
-Ok, let's try this again one more time.
