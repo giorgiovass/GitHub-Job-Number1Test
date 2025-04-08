@@ -8,3 +8,15 @@ Most new TV models come with a pair of USB 2.0 ports, and often a 3.0 port for f
 I attended a family gathering recently, and the host used a 65-inch TV to do that very thing. The scanned pictures and videos looked and sounded great -- all accessed by simply plugging in a USB flash drive. 
 
 Just about any type of external hard drive, thumb drive, or data stick will function as if you plugged it into a laptop. Your TV will immediately recognize a connected device and offer you a means for accessing and navigating your media files.
+
+If you want to program your TV to play a slideshow when idle, there's a major benefit to keeping a flash drive attached just for that purpose. That benefit? Your media will not be automatically transferred to the TV's cache or internal storage because it will read files directly from the flash drive. 
+
+By keeping the files stored only on the drive, you won't need to spend time duplicating and uploading them to the TV. Moreover, your TV will thank you for performing better since you're not clogging up its cache.
+
+Ever find yourself with spreadsheets, documents, vector graphics, videos, and web pages crowding your computer monitor? That makes two of us.
+
+The most common monitor size for creatives and professionals is 27 inches. Purchasing multiple high-quality monitors (or oversized 32-inch panels) can be extremely expensive. But if you're willing to sacrifice a bit of color accuracy and resolution for more real estate on, say, a 55-inch TV screen, you can employ a Bluetooth adapter to connect wireless peripherals like a mouse or keyboard.
+
+Also: Looking for Netflix shows? I used these secret codes to unlock the full catalog
+
+A larger display allows for more space to multitask, work on complex designs, and view your discombobulating number of open windows simultaneously. You'll need those peripheral tools to be connected by USB to get the work done.
