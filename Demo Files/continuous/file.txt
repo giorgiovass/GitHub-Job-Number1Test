@@ -38,3 +38,5 @@ Ok, here's one other line of text.
 This is a brand new test with one last, final line of text. TESTING!
 
 Cornmeal: You can choose a fine or medium grind of stone-ground cornmeal (white or yellow, both work well) instead of a machine-milled meal. Mass-produced cornmeal tends to lend a gritty, sandy texture to the cornmeal. With an ingredient list this short, using quality cornmeal is of utmost importance. If you can’t find stone-ground cornmeal in your grocery store, you should order it from a reputable source like Logan Turnpike, Anson Mills, or Palmetto Farms.
+
+Cornmeal: You can choose a fine or medium grind of stone-ground cornmeal (white or yellow, both work well) instead of a machine-milled meal. Mass-produced cornmeal tends to lend a gritty, sandy texture to the cornmeal. With an ingredient list this short, using quality cornmeal is of utmost importance. If you can’t find stone-ground cornmeal in your grocery store, you should order it from a reputable source like Logan Turnpike, Anson Mills, or Palmetto Farms.
