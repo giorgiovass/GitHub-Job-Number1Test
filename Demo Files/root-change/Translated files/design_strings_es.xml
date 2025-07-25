@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app.cart">Añadir al carrito, esta vez subiré el archivo manualmente.</string>
+    <string name="app.describe">El mejor lugar para descubrir maravillosos muebles del hogar para hacer hermoso tu hogar</string>
+    <string name="app.get_started">Empezar</string>
+    <string name="app.greeting">¡Bienvenido de nuevo!</string>
+    <string name="app.greeting.snowflake">¡Bienvenido de nuevo!</string>
+    <string name="app.header">HAZ TU HOGAR HERMOSO</string>
+    <string name="app.product.description">"Este stand está hecho de madera natural. El diseño es muy simple y mínimo. Esta es realmente una de las mejores piezas para cualquier hogar. Disponible en 3 colores diferentes, puede seleccionar fácilmente la mejor combinación para su hogar ".</string>
+    <string name="app.product.title">Stand Mínimo</string>
+    <string name="app.rating_value">4.5.</string>
+    <string name="app.reviews">{{count}} reseñas</string>
+    <string name="app.sign_in">INICIA SESIÓN</string>
+    <string name="app.signin.email">Email</string>
+    <string name="app.signup">INSCRÍBETE</string>
+    <string name="app.signup.password">Contraseña</string>
+    <string name="app.signup.password_forgot">¿Olvidó su contraseña?</string>
+    <string name="app.welcome">¡Bienvenido!!!!!!!</string>
+</resources>
