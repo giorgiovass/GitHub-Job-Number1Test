@@ -6,14 +6,14 @@
     <string name="app.greeting">Welcome back</string>
     <string name="app.greeting.snowflake">Welcome back</string>
     <string name="app.header">MAKE YOUR HOME BEAUTIFUL</string>
-    <string name="app.product.description">"This stand is made of natural wood. The design is very simple and minimal. This is truly one of the best pieces for any home. Available in 3 different colors, you can easily select the best match for your home. "</string>
+    <string name="app.product.description_ver2">"This stand is made of natural wood. The design is very simple and minimal. This is truly one of the best pieces for any home. Available in 3 different colors, you can easily select the best match for your home. "</string>
     <string name="app.product.title">Minimal Stand</string>
     <string name="app.rating-value">4.5</string>
     <string name="app.reviews">{{count}} reviews</string>
     <string name="app.sign-in">SIGN IN</string>
     <string name="app.signin.email-request">Email</string>
     <string name="app.signup">SIGN UP</string>
-    <string name="app.signup.password">Password</string>
+    <string name="app.signup.password_entry">Password</string>
     <string name="app.signup.password_forgot">Forgot password?</string>
     <string name="app.welcome">Welcome!</string>
 </resources>
