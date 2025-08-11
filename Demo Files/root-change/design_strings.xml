@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <resources>
-    <string name="app.cart_v2">Add to cart, this time I will upload the file manually.</string>
+    <string name="app.cart_v2">Add to cart, this time I will upload the file manually. THIS IS A TEST! This is from August 11th.</string>
     <string name="app.describe_v2">The best place to discover wonderful household furniture to make your home beautiful</string>
     <string name="app.get-started_button_version2.3_v2">Get Started</string>
     <string name="app.greeting_v2">Welcome back</string>
