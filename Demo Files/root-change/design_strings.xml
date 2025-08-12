@@ -40,11 +40,11 @@
     <string name="app.no_v2">No</string>
     <string name="app.back_v2">Back</string>
     <string name="app.next_v2">Next</string>
-    <string name="app.previous_v2">Previous</string>
+    <string name="app.previous_v2">Return to previous selection</string>
     <string name="app.done_v2">Done</string>
     <string name="app.contact-us_v2">Contact Us</string>
-    <string name="app.about_v2">About Us</string>
-    <string name="app.update-available_v2">An update is available</string>
+    <string name="app.about_v2">Click here to find out more about Us</string>
+    <string name="app.update-available_v2">An update is available. Please download it here.</string>
     <string name="app.version_v2">Version {{version}}</string>
     <string name="app.checkout_v2">Checkout</string>
     <string name="app.payment_v2">Payment</string>
@@ -60,7 +60,7 @@
     <string name="app.address_v2">Address</string>
     <string name="app.phone_v2">Phone Number</string>
     <string name="app.email_v2">Email Address</string>
-    <string name="app.required_v2">This field is required</string>
+    <string name="app.required_v277.6">This field is required</string>
     <string name="app.invalid-email_v2">Invalid email address</string>
     <string name="app.password-mismatch_v2">Passwords do not match</string>
     <string name="app.signout-confirmation_v2">Are you absolutely 100% sure that you want to sign out?</string>
