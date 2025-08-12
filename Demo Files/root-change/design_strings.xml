@@ -52,8 +52,8 @@
     <string name="app.total_v2">Total</string>
     <string name="app.discount_v2">Discount</string>
     <string name="app.tax_v2">Tax</string>
-    <string name="app.shipping_v3">Shipping</string>
-    <string name="app.estimated-delivery_v4">Estimated delivery: {{date}}</string>
+    <string name="app.shipping_v4">Shipping</string>
+    <string name="app.estimated-delivery_v6">Estimated delivery: {{date}}</string>
     <string name="app.order-confirmation_v5">Thank you for your order!</string>
     <string name="app.track-order_v6">Track Order</string>
     <string name="app.view-order_v2">View Order</string>
