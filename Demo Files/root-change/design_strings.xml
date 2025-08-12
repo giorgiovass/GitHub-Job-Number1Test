@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE greeting SYSTEM "hello.dtd">
 <resources>
     <string name="app.cart_v2">Add to cart, this time I will upload the file manually. THIS IS A BRAND NEW TEST! This is from August 12th, 2025 AD.</string>
     <string name="app.describe_v2">The best place to discover wonderful household furniture to make your home even much more beautiful than it was before.</string>
