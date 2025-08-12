@@ -28,8 +28,8 @@
     <string name="app.search_v2">Search</string>
     <string name="app.no-results_v2">No results found</string>
     <string name="app.loading_v2">Loading...</string>
-    <string name="app.retry_v3">Retry</string>
-    <string name="app.submit_v4">Submit</string>
+    <string name="app.retry_v3">Retry again</string>
+    <string name="app.submit_v5">Submit</string>
     <string name="app.cancel_v2">Cancel</string>
     <string name="app.save_v2">Save</string>
     <string name="app.saved_v2">Saved</string>
