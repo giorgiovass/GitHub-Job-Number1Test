@@ -35,7 +35,7 @@
     <string name="app.saved_v2">Saved</string>
     <string name="app.edit_v2">Edit</string>
     <string name="app.delete_v2">Delete</string>
-    <string name="app.confirm-delete_v2">Are you sure you want to delete this item?</string>
+    <string name="app.confirm-delete_v2">Are you sure you want to delete this item from your cart? Please note that you will not be able to undo this action.</string>
     <string name="app.yes_v2">Yes</string>
     <string name="app.no_v2">No</string>
     <string name="app.back_v2">Back</string>
