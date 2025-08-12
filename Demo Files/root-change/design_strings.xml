@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <resources>
-    <string name="app.cart_v2">Add to cart, this time I will upload the file manually. THIS IS A TEST! This is from August 12th.</string>
-    <string name="app.describe_v2">The best place to discover wonderful household furniture to make your home even much more beautiful</string>
+    <string name="app.cart_v2">Add to cart, this time I will upload the file manually. THIS IS A BRAND NEW TEST! This is from August 12th.</string>
+    <string name="app.describe_v2">The best place to discover wonderful household furniture to make your home even much more beautiful than it was before.</string>
     <string name="app.get-started_button_version2.3_v2">Get Started by clicking here</string>
     <string name="app.greeting_v2">Welcome back</string>
     <string name="app.greeting.snowflake_v2">Welcome back</string>
@@ -52,10 +52,10 @@
     <string name="app.total_v2">Total</string>
     <string name="app.discount_v2">Discount</string>
     <string name="app.tax_v2">Tax</string>
-    <string name="app.shipping_v2">Shipping</string>
-    <string name="app.estimated-delivery_v2">Estimated delivery: {{date}}</string>
-    <string name="app.order-confirmation_v2">Thank you for your order!</string>
-    <string name="app.track-order_v2">Track Order</string>
+    <string name="app.shipping_v3">Shipping</string>
+    <string name="app.estimated-delivery_v4">Estimated delivery: {{date}}</string>
+    <string name="app.order-confirmation_v5">Thank you for your order!</string>
+    <string name="app.track-order_v6">Track Order</string>
     <string name="app.view-order_v2">View Order</string>
     <string name="app.address_v2">Address</string>
     <string name="app.phone_v2">Phone Number</string>
@@ -63,5 +63,5 @@
     <string name="app.required_v2">This field is required</string>
     <string name="app.invalid-email_v2">Invalid email address</string>
     <string name="app.password-mismatch_v2">Passwords do not match</string>
-    <string name="app.signout-confirmation_v2">Are you sure you want to sign out?</string>
+    <string name="app.signout-confirmation_v2">Are you absolutely 100% sure that you want to sign out?</string>
 </resources>
