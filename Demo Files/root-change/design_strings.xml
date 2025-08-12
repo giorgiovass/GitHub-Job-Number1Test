@@ -10,7 +10,7 @@
     <string name="app.product.title_v2">Minimal Stand</string>
     <string name="app.rating-value_v2">4.5</string>
     <string name="app.reviews_v2">{{count}} reviews</string>
-    <string name="app.sign-in_v2">SIGN IN</string>
+    <string name="app.sign-in_v3">SIGN IN</string>
     <string name="app.signin.email-request_v2">Email</string>
     <string name="app.signup_v2">SIGN UP</string>
     <string name="app.signup.password_entry_v2">Password</string>
@@ -28,8 +28,8 @@
     <string name="app.search_v2">Search</string>
     <string name="app.no-results_v2">No results found</string>
     <string name="app.loading_v2">Loading...</string>
-    <string name="app.retry_v2">Retry</string>
-    <string name="app.submit_v2">Submit</string>
+    <string name="app.retry_v3">Retry</string>
+    <string name="app.submit_v4">Submit</string>
     <string name="app.cancel_v2">Cancel</string>
     <string name="app.save_v2">Save</string>
     <string name="app.saved_v2">Saved</string>
