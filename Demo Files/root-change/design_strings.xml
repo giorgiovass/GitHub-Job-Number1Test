@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <resources>
-    <string name="app.cart_v2">Add to cart, this time I will upload the file manually. THIS IS A TEST! This is from August 11th.</string>
-    <string name="app.describe_v2">The best place to discover wonderful household furniture to make your home beautiful</string>
-    <string name="app.get-started_button_version2.3_v2">Get Started</string>
+    <string name="app.cart_v2">Add to cart, this time I will upload the file manually. THIS IS A TEST! This is from August 12th.</string>
+    <string name="app.describe_v2">The best place to discover wonderful household furniture to make your home even much more beautiful</string>
+    <string name="app.get-started_button_version2.3_v2">Get Started by clicking here</string>
     <string name="app.greeting_v2">Welcome back</string>
     <string name="app.greeting.snowflake_v2">Welcome back</string>
     <string name="app.header_v2">MAKE YOUR HOME BEAUTIFUL</string>
@@ -29,8 +29,8 @@
     <string name="app.no-results_v2">No results found</string>
     <string name="app.loading_v2">Loading...</string>
     <string name="app.retry_v3">Retry again please, one more time.</string>
-    <string name="app.submit_v5">Submit</string>
-    <string name="app.cancel_v2">Cancel</string>
+    <string name="app.submit_v7">Submit</string>
+    <string name="app.cancel_v5">Cancel</string>
     <string name="app.save_v2">Save</string>
     <string name="app.saved_v2">Saved</string>
     <string name="app.edit_v2">Edit</string>
