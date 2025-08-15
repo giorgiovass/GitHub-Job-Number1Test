@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE greeting SYSTEM "hello.dtd">
+<!-- declarations for <header> only -->
+<resources>
+    <string name="app.cart_v2">加入购物车，这次我将手动上传文件。这是一项全新的测试！这是从公元 2025 年 8 月 12 日开始的。</string>
+    <string name="app.describe_v2">这是发现精美家居家具的最佳去处，让您的家比以前更加美丽。</string>
+    <string name="app.get-started_button_version2.3_v2">点击此处开始</string>
+    <string name="app.greeting_v2">欢迎回到我们优秀的应用程序！</string>
+    <string name="app.greeting.snowflake_v2">欢迎回来</string>
+    <string name="app.header_v2">让你的家变得美丽</string>
+    <string name="app.product.description_ver2_v2">“这个支架由天然木材制成。设计非常简单且极简主义。这确实是任何家庭的最佳作品之一。有 3 种不同的颜色可供选择，您可以轻松选择最适合自己家居的款式。“</string>
+    <string name="app.product.title_v2">最小支架</string>
+    <string name="app.rating-value_v2">4.5</string>
+    <string name="app.reviews_v2">{{count}} 条评论</string>
+</resources>
