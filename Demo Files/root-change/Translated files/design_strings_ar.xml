@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE greeting SYSTEM "hello.dtd">
+<!-- declarations for <header> only -->
+<resources>
+    <string name="app.cart_v2">أضف إلى عربة التسوق، هذه المرة سأقوم بتحميل الملف يدويًا. هذا اختبار جديد تمامًا! هذا من تاريخ 12 أغسطس 2025 م.</string>
+    <string name="app.describe_v2">أفضل مكان لاكتشاف أثاث منزلي رائع لجعل منزلك أكثر جمالًا مما كان عليه من قبل.</string>
+    <string name="app.get-started_button_version2.3_v2">ابدأ بالضغط هنا</string>
+    <string name="app.greeting_v2">مرحبًا بك مرة أخرى في تطبيقنا الممتاز!</string>
+    <string name="app.greeting.snowflake_v2">مرحبًا بك مرة أخرى</string>
+    <string name="app.header_v2">اجعل منزلك جميلًا</string>
+    <string name="app.product.description_ver2_v2">«هذا الحامل مصنوع من الخشب الطبيعي. التصميم بسيط للغاية وبسيط. إنها حقًا واحدة من أفضل القطع لأي منزل. متوفر بثلاثة ألوان مختلفة، يمكنك بسهولة اختيار أفضل تطابق لمنزلك. «</string>
+    <string name="app.product.title_v2">الحد الأدنى من الحامل</string>
+    <string name="app.rating-value_v2">4.5</string>
+    <string name="app.reviews_v2">{{count}} مراجعات</string>
+</resources>
