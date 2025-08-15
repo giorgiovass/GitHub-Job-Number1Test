@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE greeting SYSTEM "hello.dtd">
+<!-- declarations for <header> only -->
+<resources>
+    <string name="app.cart_v2">Añádelo al carrito, esta vez subiré el archivo manualmente. ¡ESTA ES UNA PRUEBA COMPLETAMENTE NUEVA! Esto es del 12 de agosto del 2025 d.C.</string>
+    <string name="app.describe_v2">El mejor lugar para descubrir maravillosos muebles para el hogar que harán que su hogar sea aún más hermoso de lo que era antes.</string>
+    <string name="app.get-started_button_version2.3_v2">Comience haciendo clic aquí</string>
+    <string name="app.greeting_v2">¡Bienvenido de nuevo a nuestra excelente aplicación!</string>
+    <string name="app.greeting.snowflake_v2">Bienvenido de nuevo</string>
+    <string name="app.header_v2">EMBELLECE TU HOGAR</string>
+    <string name="app.product.description_ver2_v2">«Este soporte está hecho de madera natural. El diseño es muy sencillo y minimalista. Esta es realmente una de las mejores piezas para cualquier hogar. Disponible en 3 colores diferentes, puedes seleccionar fácilmente el que mejor se adapte a tu hogar. «</string>
+    <string name="app.product.title_v2">Soporte mínimo</string>
+    <string name="app.rating-value_v2">4.5</string>
+    <string name="app.reviews_v2">{{count}} reseñas</string>
+</resources>
