@@ -12,5 +12,6 @@
     <string name="app.product.description_ver2_v2">"This stand is made of natural wood. The design is very simple and minimal. This is truly one of the best pieces for any home. Available in 3 different colors, you can easily select the best match for your home. "</string>
     <string name="app.product.title_v2">Minimal Stand</string>
     <string name="app.rating-value_v2">4.8</string>
+    <string name="app.greeting">Welcome back!</string>
     <string name="app.reviews_v2">{{count}} reviews</string>
 </resources>
