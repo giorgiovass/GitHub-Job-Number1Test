@@ -3,10 +3,9 @@
 <!-- declarations for <header> only -->
 <resources>
     <string name="app.cart_v2">Add to cart, this time I will upload the file manually. THIS IS A BRAND NEW TEST! This is from August 12th, 2025 AD.</string>
-    <!-- declarations <body> -->
     <string name="app.describe_v2">The best place to discover wonderful household furniture to make your home even much more beautiful than it was before.</string>
     <string name="app.get-started_button_version2.3_v2">Get Started by clicking here</string>
-    <string name="app.greeting_v2">Welcome back</string>
+    <string name="app.greeting_v2">Welcome back to our excellent app!</string>
     <string name="app.greeting.snowflake_v2">Welcome back</string>
     <string name="app.header_v2">MAKE YOUR HOME BEAUTIFUL</string>
     <string name="app.product.description_ver2_v2">"This stand is made of natural wood. The design is very simple and minimal. This is truly one of the best pieces for any home. Available in 3 different colors, you can easily select the best match for your home. "</string>
