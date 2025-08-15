@@ -1,7 +1,0 @@
-Hello there!
-
-
-This file concerns apples.
-
-
-Thank you.
