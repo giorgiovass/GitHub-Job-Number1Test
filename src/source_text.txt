@@ -6,3 +6,13 @@ Aligning .XLSX files that contain many columns with different content and metada
 Single file pairs can be aligned or batches of files (in ZIP folders).
 
 Files are imported and segmented. The content will then be aligned and inserted into an .XLSX file for download. The .XLSX file can then be opened in a spreadsheet application for review and if correct, uploaded as an addition to a TM or a new TM.
+
+
+Recommendations for use:
+
+    Create a separate translation memory for the aligned segments (Aligned TM is a suggested name). This helps distinguish between the segments originating from the alignment and the actual translation work.
+
+    Ensure a review of the .XLSX is done in a spreadsheet application. Alignment results may not be perfect due to differences in content, incorrectly set segmentation, inconsistent formatting in the source and target files, etc..
+
+    Help translators by adding the aligned .XLSX file as a reference to the project. If incorrect alignments are identified, they can be checked in the reference file.
+
