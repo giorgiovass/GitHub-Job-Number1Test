@@ -1,0 +1,8 @@
+Previously translated texts can be converted into a translation memory even if not translated in any CAT tool. Both the original and the translated files are required and must have the same file format. The format must also be supported.
+Note
+
+Aligning .XLSX files that contain many columns with different content and metadata can cause segmentation issues. In this case, it is recommended to copy and paste content from the original Excel files into a single Excel file, and import the new file into a job as a multilingual Excel.
+
+Single file pairs can be aligned or batches of files (in ZIP folders).
+
+Files are imported and segmented. The content will then be aligned and inserted into an .XLSX file for download. The .XLSX file can then be opened in a spreadsheet application for review and if correct, uploaded as an addition to a TM or a new TM.
